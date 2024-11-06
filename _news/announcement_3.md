@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2024-10-20 09:59:00-0400
+date: 2024-03-07 10:59:00-0400
 inline: true
 related_posts: false
 ---
 
-My Paper “TRAQID - Traffic-Related Air Quality Image Dataset,” is accepted at the [Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP)](https://icvgip.in/), which will be presented at IIIT Bangalore. 🥳
+Our patent named [System and Method for Implementing an Experiment Remotely and Determining an Output Using a Computer Vision Model](https://patentcenter.uspto.gov/applications/18241852) accepted for publication at United States Patent and Trademark Office. 💡
 
