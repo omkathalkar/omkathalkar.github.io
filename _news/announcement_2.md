@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Joined [NSE TalentSprint](https://talentsprint.com/) as a **Mentor**!
+Joined [NSE TalentSprint](https://talentsprint.com/) as a **Mentor**!👨‍🏫
