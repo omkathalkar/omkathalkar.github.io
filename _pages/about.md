@@ -23,3 +23,4 @@ social: true # includes social icons at the bottom of the page
 ### Teaching
 
 ---
+I am passionate about education and mentoring. At NSE TalentSprint, I mentor the AIML certification program, transforming industry professionals into ML practitioners through intensive training in neural architectures, NLP, and computer vision. I guide teams from concept to deployment, helping professionals implement production-ready AI solutions. At IIIT Hyderabad's IoT & Embedded Workshop Lab, I pioneer the implementation of ML models on Qualcomm's QIDK platform, where I teach undergrad and postgrad students to break through edge computing barriers. Students learn to optimize ML models for mobile platforms, focusing on real-time inference and efficient resource utilization on Snapdragon SoCs. Beyond urban centres, I've reached 200+ students in rural engineering colleges, introducing them to ML and IoT fundamentals.
