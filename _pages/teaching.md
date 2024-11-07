@@ -7,7 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-## AI/ML Mentor - NSE TalentSprint & IIIT Hyderabad
+## AI/ML Mentor - NSE TalentSprint
 
 *May 2024 - Present*
 
