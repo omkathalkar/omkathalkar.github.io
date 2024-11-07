@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.iiit.ac.in/'>IIIT Hyderabad</a>.
 
 profile:
   align: right
@@ -18,7 +18,6 @@ social: true # includes social icons at the bottom of the page
 
 ### Research 
 
----
 
 ### Teaching
 
