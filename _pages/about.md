@@ -16,8 +16,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-### Research 
+👋 Hi, I am an MS by Research student in Electronics and Communication at IIIT Hyderabad. I work as a Research Scholar at the [Signal Processing and Communication Research Centre (SPCRC)](https://spcrc.iiit.ac.in/) under the supervision of [Prof. Sachin Chaudhari](https://faculty.iiit.ac.in/~sachin.c/) at SPCRC, IIIT Hyderabad, and [Prof. Anoop M. Namboodiri](https://faculty.iiit.ac.in/~anoop/) at [CVIT](https://cvit.iiit.ac.in/), IIIT Hyderabad. My areas of interest are Computer Vision and Machine Learning, with research focused on Applied AI for environmental issues. My [publications](https://omkathalkar.github.io/publications/) cover work in this area. I am supported by the [iHub-Data Fellowship](https://ihub-data.ai/archives/blogs/5998/) for my MS research.
 
+I completed my B.E. in Electronics and Telecommunication at [St. Vincent Pallotti College of Engineering and Technology, Nagpur](https://www.stvincentngp.edu.in/) (SVPCET), under the guidance of [Dr. Shriraghavan R. Madbushi](https://www.stvincentngp.edu.in/faculties/view/34). During my bachelor's at SVPCET, I achieved AIR-1 in the Gold Award category at the e-Yantra Ideas Competition organized by IIT Bombay and was recognized as the Student of the Year for the 2023 batch in the Electronics and Telecommunication Department, as well as the Best Project Award for my final-year project.
 
 ### Teaching
 
