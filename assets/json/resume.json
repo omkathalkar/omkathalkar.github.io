@@ -36,8 +36,10 @@
   "skills": {
     "areas_of_interest": [
       "Internet of Things",
-      "Machine Learning",
-      "Computer Vision"
+      "Machine & Deep Learning",
+      "Computer Vision",
+      "Genrative AI",
+      "Natural Language Processing"
     ],
     "programming": [
       "Python",
