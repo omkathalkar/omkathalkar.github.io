@@ -6,7 +6,7 @@ subtitle: <a href='https://www.iiit.ac.in/'>IIIT Hyderabad</a>.
 
 profile:
   align: right
-  image: IMG_6808.jpeg
+  image: om.jpeg
   image_circular: false # crops the image to make it circular
   more_info: #
 
