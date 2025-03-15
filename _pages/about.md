@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.iiit.ac.in/'>IIIT Hyderabad</a>.
+subtitle: <a href='https://www.iiit.ac.in/'>IIIT Hyderabad</a> & <a href='https://www.ericsson.com/en/reports-and-papers/research-papers?locs=68304,46951'>Ericsson Research</a>.
 
 profile:
   align: right
