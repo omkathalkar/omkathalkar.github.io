@@ -16,15 +16,19 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-👋 Hi, I am an MS by Research student at IIIT Hyderabad. You can find my [resume](https://drive.google.com/file/d/1C5vSBJgGbzI5VLlItFA6o8Xpw59w0MeY/view?usp=sharing). I work as a Research Scholar at the [Signal Processing and Communication Research Centre (SPCRC)](https://spcrc.iiit.ac.in/) under the supervision of [Prof. Sachin Chaudhari](https://faculty.iiit.ac.in/~sachin.c/) at SPCRC, IIIT Hyderabad, and [Prof. Anoop M. Namboodiri](https://faculty.iiit.ac.in/~anoop/) at [CVIT](https://cvit.iiit.ac.in/), IIIT Hyderabad. My areas of interest are Computer Vision and Machine Learning, with research focused on Applied AI for environmental issues. My [publications](https://omkathalkar.github.io/publications/) cover work in this area. I am awarded by the [iHub-Data Fellowship](https://ihub-data.ai/archives/blogs/5998/) for my MS research.
+👋 Hi, I am an MS by Research student at IIIT Hyderabad and a Research Scholar at the [Signal Processing and Communication Research Centre (SPCRC)](https://spcrc.iiit.ac.in/), supervised by [Prof. Sachin Chaudhari](https://faculty.iiit.ac.in/~sachin.c/) (SPCRC, IIIT Hyderabad) and [Prof. Anoop M. Namboodiri](https://faculty.iiit.ac.in/~anoop/) ([CVIT](https://cvit.iiit.ac.in/), IIIT Hyderabad). My areas of interest include Computer Vision and Machine Learning, with my research specifically focused on Applied AI to address environmental issues. My [publications](https://omkathalkar.github.io/publications/) highlight my contributions in this domain. I have been awarded the prestigious [iHub-Data Fellowship](https://ihub-data.ai/archives/blogs/5998/) for my MS research.
 
-I completed my B.E. in Electronics and Telecommunication at [St. Vincent Pallotti College of Engineering and Technology, Nagpur](https://www.stvincentngp.edu.in/) (SVPCET), under the guidance of [Dr. Shriraghavan R. Madbushi](https://www.stvincentngp.edu.in/faculties/view/34). During my bachelor's at SVPCET, I achieved AIR-1 in the Gold Award category at the e-Yantra Ideas Competition organized by IIT Bombay and was recognized as the Student of the Year for the 2023 batch in the Electronics and Telecommunication Department, as well as the Best Project Award for my final-year project.
+I recently joined [Ericsson Research](https://www.ericsson.com/en/reports-and-papers/research-papers?locs=68304,46951) as a Researcher, where I represent Ericsson in the [European PANDORA project](https://pandora-heu.eu/). My current work involves investigating and implementing path planning algorithms for autonomous mobile robots (AMRs), emphasizing optimization of navigation using Q-learning and deep reinforcement learning (DRL).
+
+I completed my B.E. in Electronics and Telecommunication at [St. Vincent Pallotti College of Engineering and Technology, Nagpur](https://www.stvincentngp.edu.in/) (SVPCET), under the guidance of [Dr. Shriraghavan R. Madbushi](https://www.stvincentngp.edu.in/faculties/view/34). At SVPCET, I achieved AIR-1 in the Gold Award category at the e-Yantra Ideas Competition organized by IIT Bombay, received the Student of the Year award for the 2023 batch in the Electronics and Telecommunication Department, and secured the Best Project Award for my final-year project.
+
+
 
 In my free time, I enjoy reading, playing cricket, hockey, and badminton, hiking, and writing short stories and poetry. I was born and raised in [Amravati, Maharashtra](https://en.wikipedia.org/wiki/Amravati), one of India’s oldest continuously inhabited cities.
 
 ### Research 
 
-My research interests encompass various domains, including Generative AI, Environmental Sensing, Computer Vision, Machine & Deep Learning, and the Internet of Things (IoT).
+My research interests encompass various domains, including Edge AI, Internet of Things, Computer Vision, Machine & Deep Learning, and Environmental Sensing.
 
 ### Teaching
 
