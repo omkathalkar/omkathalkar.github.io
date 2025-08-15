@@ -20,9 +20,7 @@ social: true # includes social icons at the bottom of the page
 
 I recently joined [Ericsson Research](https://www.ericsson.com/en/reports-and-papers/research-papers?locs=68304,46951) as a Researcher, where I represent Ericsson in the [European PANDORA project](https://pandora-heu.eu/). My current work involves investigating and implementing path planning algorithms for autonomous mobile robots (AMRs), emphasizing optimization of navigation using Q-learning and deep reinforcement learning (DRL).
 
-I completed my B.E. in Electronics and Telecommunication at [St. Vincent Pallotti College of Engineering and Technology, Nagpur](https://www.stvincentngp.edu.in/) (SVPCET), under the guidance of [Dr. Shriraghavan R. Madbushi](https://www.stvincentngp.edu.in/faculties/view/34). At SVPCET, I achieved AIR-1 in the Gold Award category at the e-Yantra Ideas Competition organized by IIT Bombay, received the Student of the Year award for the 2023 batch in the Electronics and Telecommunication Department, and secured the Best Project Award for my final-year project.
-
-
+I completed my B.E. in Electronics and Telecommunication at [St. Vincent Pallotti College of Engineering and Technology, Nagpur](https://www.stvincentngp.edu.in/) (SVPCET), with the guidance of [Dr. Shriraghavan R. Madbushi](https://www.stvincentngp.edu.in/faculties/view/34). At SVPCET, I achieved AIR-1 in the Gold Award at the e-Yantra Ideas Competition organized by IIT Bombay, received the **Student of the Year award** for the engineering 2023 batch and for the Electronics and Telecommunication Department, and secured the Best Project Award for my final-year project.
 
 In my free time, I enjoy reading, playing cricket, hockey, and badminton, hiking, and writing short stories and poetry. I was born and raised in [Amravati, Maharashtra](https://en.wikipedia.org/wiki/Amravati), one of India’s oldest continuously inhabited cities.
 
