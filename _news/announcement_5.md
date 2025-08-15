@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined Ericsson Research as Researcher for 6 Months! 🥳 
+Joined Ericsson Research as a Researcher!🥳 
