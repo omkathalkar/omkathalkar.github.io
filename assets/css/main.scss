@@ -23,3 +23,12 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+/* Custom overrides */
+
+.card-img-top {
+  max-height: 150px;   /* adjust as you prefer */
+  object-fit: cover;
+  border-radius: 6px;
+}
+
