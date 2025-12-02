@@ -39,9 +39,7 @@ featured_media:
     date: "2022"
     url: "https://mobility.iiit.ac.in/air_quality-blog.php"
     thumbnail: "/assets/img/featured/air_quality.png"
----
-
-I am currently looking for exciting **PhD opportunities** in the areas of Applied AI, Edge Intelligence, and Efficient AI Inference!!!  
+---  
 
 👋 Hi, I am an MS by Research student at IIIT Hyderabad and a Research Scholar at the [Signal Processing and Communication Research Centre (SPCRC)](https://spcrc.iiit.ac.in/), supervised by [Prof. Sachin Chaudhari](https://faculty.iiit.ac.in/~sachin.c/) (SPCRC, IIIT Hyderabad) and [Prof. Anoop M. Namboodiri](https://faculty.iiit.ac.in/~anoop/) ([CVIT](https://cvit.iiit.ac.in/), IIIT Hyderabad). Please find my resume **[here](https://drive.google.com/file/d/1G9_sc6aL1YrccvRaF4GdNbe4v1RDtdvo/view?usp=sharing)**. My research focuses on developing **efficient and adaptive AI systems** that can operate reliably in **resource-constrained and real-world environments**, with applications spanning **environmental sensing, smart cities, and robotics**. My [publications](https://omkathalkar.github.io/publications/) reflect these contributions, and I have been awarded the [iHub-Data Fellowship](https://ihub-data.ai/archives/blogs/5998/) for my MS research.  
 
@@ -55,6 +53,11 @@ In my free time, I enjoy reading, playing cricket, hockey, and badminton, hiking
 ### Research 
 
 My research interests encompass various domains, including Edge AI, Internet of Things, Computer Vision, Machine & Deep Learning, and Environmental Sensing.
+
+
+### Teaching
+
+I am passionate about education and mentoring. At [NSE TalentSprint](https://talentsprint.com/?srsltid=AfmBOoruCeg3vOWrY0fkSuGi06p49esrpKXLBN8X7ubhhi0VJYEteYo8), I mentor the [AIML certification program](https://talentsprint.com/course/ai-machine-learning-iiit-hyderabad), transforming industry professionals into ML practitioners through intensive training in neural architectures, NLP, and computer vision. I guide teams from concept to deployment, helping professionals implement production-ready AI solutions. At IIIT Hyderabad's IoT & Embedded Workshop Lab, I pioneer the implementation of ML models on [Qualcomm's QIDK platform](https://www.qualcomm.com/developer/hardware/qualcomm-innovators-development-kit), where I teach undergrad and postgrad students to break through edge computing barriers. Students learn to optimize ML models for mobile platforms, focusing on real-time inference and efficient resource utilization on Snapdragon SoCs. Beyond urban centres, I've reached 200+ students in rural engineering colleges, introducing them to ML and IoT fundamentals.
 
 ## Featured Media
 
@@ -80,8 +83,3 @@ Some places where my work has been highlighted.
   {% endfor %}
 </div>
 {% endif %}
-
-
-### Teaching
-
-I am passionate about education and mentoring. At [NSE TalentSprint](https://talentsprint.com/?srsltid=AfmBOoruCeg3vOWrY0fkSuGi06p49esrpKXLBN8X7ubhhi0VJYEteYo8), I mentor the [AIML certification program](https://talentsprint.com/course/ai-machine-learning-iiit-hyderabad), transforming industry professionals into ML practitioners through intensive training in neural architectures, NLP, and computer vision. I guide teams from concept to deployment, helping professionals implement production-ready AI solutions. At IIIT Hyderabad's IoT & Embedded Workshop Lab, I pioneer the implementation of ML models on [Qualcomm's QIDK platform](https://www.qualcomm.com/developer/hardware/qualcomm-innovators-development-kit), where I teach undergrad and postgrad students to break through edge computing barriers. Students learn to optimize ML models for mobile platforms, focusing on real-time inference and efficient resource utilization on Snapdragon SoCs. Beyond urban centres, I've reached 200+ students in rural engineering colleges, introducing them to ML and IoT fundamentals.
