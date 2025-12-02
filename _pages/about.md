@@ -37,6 +37,32 @@ In my free time, I enjoy reading, playing cricket, hockey, and badminton, hiking
 
 My research interests encompass various domains, including Edge AI, Internet of Things, Computer Vision, Machine & Deep Learning, and Environmental Sensing.
 
+## Featured Media
+
+Some places where my work has been highlighted.
+
+{% if page.featured_media %}
+<div class="row">
+  {% for item in page.featured_media %}
+  <div class="col-md-4 col-sm-6 mb-4">
+    <a href="{{ item.url }}" target="_blank" class="card h-100">
+      {% if item.thumbnail %}
+      <img src="{{ item.thumbnail }}" class="card-img-top" alt="{{ item.title }} thumbnail">
+      {% endif %}
+      <div class="card-body">
+        <h5 class="card-title">{{ item.title }}</h5>
+        <p class="card-text">
+          {% if item.source %}{{ item.source }}{% endif %}
+          {% if item.date %} · {{ item.date }}{% endif %}
+        </p>
+      </div>
+    </a>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+
 ### Teaching
 
 I am passionate about education and mentoring. At [NSE TalentSprint](https://talentsprint.com/?srsltid=AfmBOoruCeg3vOWrY0fkSuGi06p49esrpKXLBN8X7ubhhi0VJYEteYo8), I mentor the [AIML certification program](https://talentsprint.com/course/ai-machine-learning-iiit-hyderabad), transforming industry professionals into ML practitioners through intensive training in neural architectures, NLP, and computer vision. I guide teams from concept to deployment, helping professionals implement production-ready AI solutions. At IIIT Hyderabad's IoT & Embedded Workshop Lab, I pioneer the implementation of ML models on [Qualcomm's QIDK platform](https://www.qualcomm.com/developer/hardware/qualcomm-innovators-development-kit), where I teach undergrad and postgrad students to break through edge computing barriers. Students learn to optimize ML models for mobile platforms, focusing on real-time inference and efficient resource utilization on Snapdragon SoCs. Beyond urban centres, I've reached 200+ students in rural engineering colleges, introducing them to ML and IoT fundamentals.
