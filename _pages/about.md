@@ -7,13 +7,20 @@ subtitle: <a href='https://www.iiit.ac.in/'>IIIT Hyderabad</a> & <a href='https:
 profile:
   align: right
   image: om.jpeg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: #
 
-news: true # includes a list of news items
+news: true
 teaching: true
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
+
+featured_media:
+  - title: "Pallotti Pride: Academic Excellence Highlight"
+    source: "SVPCET on LinkedIn"
+    date: "Nov 2025"
+    url: "https://www.linkedin.com/posts/svpcet_pallottipride-academicexcellence-iiithyderabad-activity-7399380317415043072-DqaQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC0VN4YBQvS18pO1WK9FhGAaxhBbffT3vzs"
+    thumbnail: "/assets/img/featured/pallotti-linkedin.jpg"
 ---
 I am currently looking for exciting **PhD opportunities** in the areas of Applied AI, Edge Intelligence, and Efficient AI Inference!!!  
 
