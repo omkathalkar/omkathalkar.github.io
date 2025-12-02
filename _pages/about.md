@@ -28,13 +28,13 @@ featured_media:
     url: "https://blogs.iiit.ac.in/monthly_news/om-rajendra-kathalkar/"
     thumbnail: "/assets/img/featured/iiit-ms.jpg"
 
-  - title: "Sensor-Free Method Wins Environmental Sensing Competition"
+- title: "Sensor-Free Method Wins Environmental Sensing Competition"
     source: "IIIT Hyderabad Blog"
     date: "Feb 2023"
     url: "https://blogs.iiit.ac.in/aqi/"
     thumbnail: "/assets/img/featured/Team-Vayu.jpg"
 
-  - title: "IoT-based AQI Estimation – Detailed Project Story"
+- title: "IoT-based AQI Estimation – Detailed Project Story"
     source: "IIIT Hyderabad Research"
     date: "2022"
     url: "https://mobility.iiit.ac.in/air_quality-blog.php"
