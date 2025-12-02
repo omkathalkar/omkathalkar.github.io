@@ -21,6 +21,26 @@ featured_media:
     date: "Nov 2025"
     url: "https://www.linkedin.com/posts/svpcet_pallottipride-academicexcellence-iiithyderabad-activity-7399380317415043072-DqaQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC0VN4YBQvS18pO1WK9FhGAaxhBbffT3vzs"
     thumbnail: "/assets/img/featured/pallotti-linkedin.jpg"
+
+- title: "Om Rajendra Kathalkar – IIIT-H Monthly News"
+    source: "IIIT Hyderabad Blog"
+    date: "Nov 2025"
+    url: "https://blogs.iiit.ac.in/monthly_news/om-rajendra-kathalkar/"
+    thumbnail: "/assets/img/featured/iiit-ms.jpg"
+
+  - title: "Sensor-Free Method Wins Environmental Sensing Competition"
+    source: "IIIT Hyderabad Blog"
+    date: "Feb 2023"
+    url: "https://blogs.iiit.ac.in/aqi/"
+    thumbnail: "/assets/img/featured/Team-Vayu.jpg"
+
+  - title: "IoT-based AQI Estimation – Detailed Project Story"
+    source: "IIIT Hyderabad Research"
+    date: "2022"
+    url: "https://mobility.iiit.ac.in/air_quality-blog.php"
+    thumbnail: "/assets/img/featured/air_quality.png"
+
+
 ---
 I am currently looking for exciting **PhD opportunities** in the areas of Applied AI, Edge Intelligence, and Efficient AI Inference!!!  
 
