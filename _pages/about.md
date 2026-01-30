@@ -13,7 +13,7 @@ profile:
 news: true
 teaching: true
 selected_papers: true
-social: true
+social: false
 
 featured_media:
   
@@ -49,7 +49,6 @@ featured_media:
     
 ---
 
-### Om Kathalkar  
 **Doctoral Researcher @ National Technical University of Athens (NTUA), Greece**  
 **Previously** — Researcher @ Ericsson Research | MS by Research @ IIIT Hyderabad  
 
