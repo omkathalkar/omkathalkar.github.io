@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.iiit.ac.in/'>IIIT Hyderabad</a> & <a href='https://www.ericsson.com/en/reports-and-papers/research-papers?locs=68304,46951'>Ericsson Research</a>.
+subtitle: <a href='https://www.ntua.gr/en/'>National Technical University of Athens (NTUA)</a>
 
 profile:
   align: right
@@ -16,48 +16,63 @@ selected_papers: true
 social: true
 
 featured_media:
+  
+  - title: "IIITH’s unique research pathway transforms interns into innovators"
+    source: "IIITH on Hans India"
+    date: "Jan 2026"
+    url: "https://www.thehansindia.com/news/cities/hyderabad/iiiths-unique-research-pathway-transforms-interns-into-innovators-1037828"
+
+  - title: "IIITH’s Alternate Admissions GATEway For Postgraduate Researchers"
+    source: "IIITH Blogs"
+    date: "Jan 2026"
+    url: "https://blogs.iiit.ac.in/pg-standingcommittee/"
+
   - title: "Pallotti Pride: Academic Excellence Highlight"
     source: "SVPCET on LinkedIn"
     date: "Nov 2025"
-    url: "https://www.linkedin.com/posts/svpcet_pallottipride-academicexcellence-iiithyderabad-activity-7399380317415043072-DqaQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC0VN4YBQvS18pO1WK9FhGAaxhBbffT3vzs"
-    thumbnail: "/assets/img/featured/pallotti-linkedin.jpg"
-
+    url: "https://www.linkedin.com/posts/svpcet_pallottipride-academicexcellence-iiithyderabad-activity-7399380317415043072-DqaQ"
+    
   - title: "Om Rajendra Kathalkar – IIIT-H Monthly News"
     source: "IIIT Hyderabad Blog"
     date: "Nov 2025"
     url: "https://blogs.iiit.ac.in/monthly_news/om-rajendra-kathalkar/"
-    thumbnail: "/assets/img/featured/iiit-ms.jpg"
 
   - title: "Sensor-Free Method Wins Environmental Sensing Competition"
     source: "IIIT Hyderabad Blog"
     date: "Feb 2023"
     url: "https://blogs.iiit.ac.in/aqi/"
-    thumbnail: "/assets/img/featured/Team-Vayu.jpg"
 
   - title: "IoT-based AQI Estimation – Detailed Project Story"
     source: "IIIT Hyderabad Research"
     date: "2022"
     url: "https://mobility.iiit.ac.in/air_quality-blog.php"
-    thumbnail: "/assets/img/featured/air_quality.png"
----  
+    
+---
 
-👋 Hi, I am an MS by Research student at IIIT Hyderabad and a Research Scholar at the [Signal Processing and Communication Research Centre (SPCRC)](https://spcrc.iiit.ac.in/), supervised by [Prof. Sachin Chaudhari](https://faculty.iiit.ac.in/~sachin.c/) (SPCRC, IIIT Hyderabad) and [Prof. Anoop M. Namboodiri](https://faculty.iiit.ac.in/~anoop/) ([CVIT](https://cvit.iiit.ac.in/), IIIT Hyderabad). Please find my resume **[here](https://drive.google.com/file/d/1G9_sc6aL1YrccvRaF4GdNbe4v1RDtdvo/view?usp=sharing)**. My research focuses on developing **efficient and adaptive AI systems** that can operate reliably in **resource-constrained and real-world environments**, with applications spanning **environmental sensing, smart cities, and robotics**. My [publications](https://omkathalkar.github.io/publications/) reflect these contributions, and I have been awarded the [iHub-Data Fellowship](https://ihub-data.ai/archives/blogs/5998/) for my MS research.  
+### Om Kathalkar  
+**Doctoral Researcher @ National Technical University of Athens (NTUA), Greece**  
+**Previously** — Researcher @ Ericsson Research | MS by Research @ IIIT Hyderabad  
 
-I am currently a **Researcher at Ericsson Research**, contributing to the European [PANDORA project](https://pandora-heu.eu/). My work centers on **network-aware path planning for autonomous mobile robots (AMRs)**, where I design algorithms that integrate **AI inference with wireless network dynamics**. By combining **edge intelligence and adaptive decision-making**, my research aims to ensure reliable robot navigation in dynamic industrial environments, even under constrained connectivity.  
+📧 **Email me at [omkathalkar.connect@gmail.com](mailto:omkathalkar.connect@gmail.com)**  
+· 💼 **[LinkedIn](https://www.linkedin.com/in/om-kathalkar/)**  · 📄 **[Resume](https://drive.google.com/file/d/1G9_sc6aL1YrccvRaF4GdNbe4v1RDtdvo/view)**
 
+---
 
-I completed my B.E. in Electronics and Telecommunication at [St. Vincent Pallotti College of Engineering and Technology, Nagpur](https://www.stvincentngp.edu.in/) (SVPCET), with the guidance of [Dr. Shriraghavan R. Madbushi](https://www.stvincentngp.edu.in/faculties/view/34). At SVPCET, I achieved AIR-1 in the Gold Award at the e-Yantra Ideas Competition organized by IIT Bombay, received the **Student of the Year award** for the engineering 2023 batch and for the Electronics and Telecommunication Department, and secured the Best Project Award for my final-year project.
+I am currently a **Doctoral Researcher at the National Technical University of Athens (NTUA), Greece**. My doctoral work is carried out at the **Institute of Communication and Computer Systems (ICCS)** as part of the **Horizon Europe [TURING project](https://turing-project.eu/)** (Trustworthy Unified Robust Intelligent Generative Systems).
 
-In my free time, I enjoy reading, playing cricket, hockey, and badminton, hiking, and writing short stories and poetry. I was born and raised in [Amravati, Maharashtra](https://en.wikipedia.org/wiki/Amravati), one of India’s oldest continuously inhabited cities.
+My PhD focuses on the **efficient execution of artificial intelligence algorithms**, with a specific emphasis on **efficient AI model inference** in real-world, resource-constrained environments. Broadly, I am interested in **efficient AI and network-aware learning systems**, and in understanding how AI models behave when deployed under constraints imposed by **latency, limited compute, and imperfect wireless connectivity**—particularly in robotics and sensing-driven applications. I am advised by **Konstantinos Tserpes** ([profile](https://scholar.google.com/citations?user=e_-h5egAAAAJ&hl=el)), with an advisory panel comprising **Theodora Varvarigou** ([profile](https://scholar.google.com/citations?user=kueSeb4AAAAJ&hl=en)) and **Georgios Bouloumakis** ([profile](https://gbouloukakis.com/)).
 
-### Research 
+Before starting my PhD, I worked as a **Researcher at Ericsson Research**, contributing to the European **[PANDORA](https://pandora-heu.eu/)** project. My work there focused on **network-aware path planning for autonomous mobile robots (AMRs)**, where I studied the interaction between **AI-based decision-making and wireless network conditions**. This experience shaped my current research perspective, grounding it strongly in **system-aware and deployment-oriented AI**.
 
-My research interests encompass various domains, including Edge AI, Internet of Things, Computer Vision, Machine & Deep Learning, and Environmental Sensing.
+Prior to Ericsson, I completed my **MS by Research at [IIIT Hyderabad](https://www.iiit.ac.in/)**, affiliated with the **[Signal Processing and Communication Research Centre (SPCRC)](https://spcrc.iiit.ac.in/)**. I was supervised by **[Prof. Sachin Chaudhari](https://faculty.iiit.ac.in/~sachin.c/)** and **[Prof. Anoop M. Namboodiri](https://faculty.iiit.ac.in/~anoop/)**. My MS research was supported by the **[iHub-Data Fellowship](https://ihub-data.ai/)** and culminated in a successfully defended thesis in **November 2025**, along with peer-reviewed publications.
 
+Alongside research, I remain involved in **education and mentoring**, working with **[TalentSprint (Accenture)](https://talentsprint.com/)** on the **AI Infinity and AI/ML programs**, and contributing to student training initiatives at **iHub-Data, IIIT Hyderabad**.
 
-### Teaching
+I completed my **B.E. in Electronics and Telecommunication Engineering** from **[St. Vincent Pallotti College of Engineering and Technology, Nagpur](https://www.stvincentngp.edu.in/)**, where I received multiple academic recognitions, including **AIR-1 (Gold Award) at the e-Yantra Ideas Competition (IIT Bombay)** and **Student of the Year (Engineering, 2023 batch)**.
 
-I am passionate about education and mentoring. At [NSE TalentSprint](https://talentsprint.com/?srsltid=AfmBOoruCeg3vOWrY0fkSuGi06p49esrpKXLBN8X7ubhhi0VJYEteYo8), I mentor the [AIML certification program](https://talentsprint.com/course/ai-machine-learning-iiit-hyderabad), transforming industry professionals into ML practitioners through intensive training in neural architectures, NLP, and computer vision. I guide teams from concept to deployment, helping professionals implement production-ready AI solutions. At IIIT Hyderabad's IoT & Embedded Workshop Lab, I pioneer the implementation of ML models on [Qualcomm's QIDK platform](https://www.qualcomm.com/developer/hardware/qualcomm-innovators-development-kit), where I teach undergrad and postgrad students to break through edge computing barriers. Students learn to optimize ML models for mobile platforms, focusing on real-time inference and efficient resource utilization on Snapdragon SoCs. Beyond urban centres, I've reached 200+ students in rural engineering colleges, introducing them to ML and IoT fundamentals.
+Outside research, I enjoy reading, playing cricket, hockey, and badminton, hiking, and writing short stories and poetry. I was born and raised in **[Amravati, Maharashtra](https://en.wikipedia.org/wiki/Amravati)**.
+
+---
 
 ## Featured Media
 
