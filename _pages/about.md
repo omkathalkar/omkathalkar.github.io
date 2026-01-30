@@ -55,7 +55,7 @@ featured_media:
 📧 **Email me at [omkathalkar.connect@gmail.com](mailto:omkathalkar.connect@gmail.com)**  
 · 💼 **[LinkedIn](https://www.linkedin.com/in/om-kathalkar/)**  · 📄 **[Resume](https://drive.google.com/file/d/1G9_sc6aL1YrccvRaF4GdNbe4v1RDtdvo/view)**
 
----
+
 
 I am currently a **Doctoral Researcher at the National Technical University of Athens (NTUA), Greece**. My doctoral work is carried out at the **Institute of Communication and Computer Systems (ICCS)** as part of the **Horizon Europe [TURING project](https://turing-project.eu/)** (Trustworthy Unified Robust Intelligent Generative Systems).
 
