@@ -6,7 +6,7 @@ subtitle: <a href='https://www.ntua.gr/en/'>National Technical University of Ath
 
 profile:
   align: right
-  image: om.jpeg
+  image: Om_new.jpeg
   image_circular: false
   more_info: #
 
