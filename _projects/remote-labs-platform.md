@@ -2,7 +2,6 @@
 layout: page
 title: Remote Labs Platform – Democratizing STEM Education
 description: Large-scale remote experimentation platform for accessible STEM learning
-img: assets/img/remote-labs.jpg
 importance: 1
 category: work
 related_publications: true
