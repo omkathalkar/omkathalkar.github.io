@@ -2,7 +2,6 @@
 layout: page
 title: Efficient and Autonomous AI Inference (TURING Project)
 description: Scalable, trustworthy, and deployable AI inference for real-world systems
-img: assets/img/efficient-ai.jpg
 importance: 4
 category: work
 related_publications: false
