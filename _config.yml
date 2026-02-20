@@ -9,9 +9,7 @@ email: om.kathalkar@research.iiit.ac.in
 description: >
   AI researcher working on camera-based AQI estimation, deep learning, autonomous mobile robots, and network-aware path planning. MS by Research from IIIT Hyderabad.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  “Hope is a good thing, maybe the best of things, and no good thing ever dies.”
 keywords: Om Kathalkar, Air Quality Estimation, Camera-based AQI, Computer Vision, Deep Learning, 360-degree Images, Environmental AI, Autonomous Mobile Robots, Network-Aware Path Planning, 5G Simulation, Sionna, Smart City Living Lab, IIIT Hyderabad, Multi-View Learning, Machine Learning Researcher, Urban Computing, NTUA PhD
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -19,7 +17,7 @@ icon: 🧑🏻‍💻 # the emoji used as the favicon (alternatively, provide im
 
 url: https://omkathalkar.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
