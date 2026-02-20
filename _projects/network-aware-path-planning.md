@@ -2,7 +2,6 @@
 layout: page
 title: Network-Aware Path Planning for Autonomous Mobile Robots
 description: Communication-aware robotic planning under industrial wireless constraints
-img: assets/img/amr-network.jpg
 importance: 3
 category: work
 related_publications: true
