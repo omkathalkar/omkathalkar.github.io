@@ -2,9 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Projects I have worked on and am currently working on.
 nav: false
-nav_order: 3
+nav_order: 2
 display_categories: [work, fun]
 horizontal: false
 ---
