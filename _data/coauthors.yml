@@ -1,10 +1,10 @@
 "chaudhari":
   - firstname: ["Sachin", "S.", "Sachin C."]
-    url: https://faculty.iiit.ac.in/~sachin.c/
+    url: https://scholar.google.com/citations?user=vowwEQgAAAAJ&hl=en
 
 "namboodiri":
   - firstname: ["Anoop", "Anoop M.", "A.", "A. M."]
-    url: https://faculty.iiit.ac.in/~anoop/
+    url: https://scholar.google.com/citations?user=mpI3sbYAAAAJ&hl=en
 
 "bouloukakis":
   - firstname: ["Georgios", "G."]
@@ -20,15 +20,19 @@
 
 "nilesh":
   - firstname: ["Nitin", "N."]
-    url: https://scholar.google.com/citations?user=nitin-nilesh
+    url: https://nitinnilesh.github.io/
 
 "hassan":
   - firstname: ["Houssam", "Houssam Hajj", "H."]
-    url: https://www.linkedin.com/in/houssam-hajj-hassan/
+    url: https://scholar.google.com/citations?user=7RFq-C0AAAAJ&hl=en
 
 "kattepur":
   - firstname: ["Ajay", "A."]
-    url: https://scholar.google.com/citations?user=ajay-kattepur
+    url: https://scholar.google.com/citations?user=UFFGGzEAAAAJ&hl=en
+
+"kandala":
+  - firstname: ["Viswanadh", "K. S.", "Viswanadh Savita"]
+    url: https://viswanadhk.com/
 
 "choppella":
   - firstname: ["Venkatesh", "V."]
