@@ -2,156 +2,204 @@
   "personalInfo": {
     "name": "Om Rajendra Kathalkar",
     "contact": {
-      "phone": "+91-9834020753",
-      "email": "om.kathalkar@research.iiit.ac.in"
+      "email": "omkathalkar.connect@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/om-kathalkar/",
+      "github": "https://github.com/omkathalkar",
+      "website": "https://omkathalkar.github.io"
     }
   },
   "education": [
     {
-      "degree": "Master of Science in Electronics and Communication Engineering",
-      "institution": "International Institute of Information Technology (IIIT-H)",
-      "location": "Hyderabad",
-      "period": "2023-Present",
-      "cgpa": "8.0/10.0"
+      "degree": "PhD — Efficient AI Inference",
+      "institution": "National Technical University of Athens (NTUA)",
+      "location": "Athens, Greece",
+      "period": "Nov 2025 - Present",
+      "description": "Institute of Communication and Computer Systems (ICCS). Horizon Europe TURING project. Advisors: Konstantinos Tserpes, Theodora Varvarigou, Georgios Bouloumakis."
     },
     {
-      "degree": "Bachelor of Engineering in Electronics and Telecommunication Engineering",
+      "degree": "MS by Research — Electronics and Communication Engineering",
+      "institution": "International Institute of Information Technology, Hyderabad (IIIT-H)",
+      "location": "Hyderabad, India",
+      "period": "2023 - 2025",
+      "cgpa": "8.0/10.0",
+      "description": "iHub-Data Fellowship. Thesis: Camera-Based Deep Learning Framework for AQI Estimation. Supervisors: Prof. Sachin Chaudhari and Prof. Anoop M. Namboodiri. Defended November 2025."
+    },
+    {
+      "degree": "Bachelor of Engineering — Electronics and Telecommunication Engineering",
       "institution": "St. Vincent Pallotti College of Engineering and Technology",
-      "location": "Nagpur",
-      "period": "2019-2023",
+      "location": "Nagpur, India",
+      "period": "2019 - 2023",
       "cgpa": "8.83/10.0"
     }
   ],
   "skills": {
     "areasOfInterest": [
-      "Machine & Deep Learning",
+      "Efficient AI Inference",
+      "Network-Aware AI Systems",
       "Computer Vision",
-      "Internet of Things"
+      "Autonomous Mobile Robots",
+      "Environmental Sensing and IoT"
     ],
     "programming": [
-      "Intermediate Python",
+      "Python",
       "C++",
-      "Matlab",
+      "MATLAB",
       "HTML"
     ],
     "hardware": [
       "Jetson Xavier NX",
       "Raspberry Pi",
       "Arduino",
-      "Esp-Series Micro-controllers"
+      "ESP-Series Microcontrollers"
     ],
     "tools": [
-      "Pytorch",
-      "Tensorflow",
+      "PyTorch",
+      "TensorFlow",
       "OpenCV",
-      "Cuda",
-      "Django",
+      "CUDA",
+      "Sionna",
       "Scikit-learn",
+      "Django",
       "LaTeX"
     ]
   },
   "publications": [
     {
-      "title": "TRAQID - Traffic-Related Air Quality Image Dataset",
-      "authors": [
-        "Om Kathalkar",
-        "Sachin Chaudhari",
-        "Anoop Namboodiri"
-      ],
-      "conference": "Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP)",
-      "location": "Bangalore",
-      "description": "Discusses limitations of sensor-based methods in air quality estimation and introduces TRAQID dataset with over 27,000 multi-view images."
+      "title": "Network-aware path planning for AMRs: A generalizable framework with spatial-aware adaptation",
+      "authors": ["Om Kathalkar", "Houssam Hajj Hassan", "Ajay Kattepur", "Georgios Bouloukakis"],
+      "venue": "Springer Nature Autonomous Robots",
+      "year": 2026,
+      "description": "Spatial-aware transformer framework for network quality prediction enabling train-once-deploy-everywhere AMR path planning."
+    },
+    {
+      "title": "Network-Aware Path Planning for Autonomous Mobile Robots in Industrial Environments",
+      "authors": ["Om Kathalkar", "Houssam Hajj Hassan", "Ajay Kattepur", "Georgios Bouloukakis"],
+      "venue": "IEEE ANTS 2025, Delhi, India",
+      "year": 2025,
+      "url": "https://zenodo.org/records/17830292",
+      "description": "Communication-aware path planning framework integrating A*, CVAE, and GNN planners validated against real-world iV2I+ measurements."
+    },
+    {
+      "title": "AQIFormer: A Transformer-Based Multi-View Architecture for Cross-City Air Quality Classification",
+      "authors": ["Om Kathalkar", "Nitin Nilesh", "Sachin Chaudhari", "Anoop Namboodiri"],
+      "venue": "ICVGIP 2025, IIT Mandi, India",
+      "year": 2025,
+      "url": "https://arxiv.org/html/2606.07648v1",
+      "description": "Transformer ensemble model achieving 89.96% AQI classification accuracy with strong cross-city generalization."
+    },
+    {
+      "title": "TRAQID — Traffic-Related Air Quality Image Dataset",
+      "authors": ["Om Kathalkar", "Nitin Nilesh", "Sachin Chaudhari", "Anoop Namboodiri"],
+      "venue": "ICVGIP 2024 (Spotlight), Bengaluru, India",
+      "year": 2024,
+      "url": "https://omkathalkar.github.io/traqid/",
+      "description": "26,678 synchronized front-rear traffic images with co-located AQI and meteorological data spanning six AQI categories."
     },
     {
       "title": "Protocol for Hunting PM2.5 Emission Hot Spots in Cities",
-      "authors": [
-        "Spanddhana Sara",
-        "Andrew Rebeiro-Hargrave",
-        "Om Kathalkar",
-        "Sachin Chaudhari"
-      ],
-      "conference": "1st International Workshop on Advances in Environmental Sensing Systems for Smart Cities (EnvSys '23)",
-      "location": "Helsinki, Finland",
-      "description": "Discusses a mobile-based protocol for locating PM2.5 emission hot spots in cities."
+      "authors": ["Sara Spanddhana", "Andrew Rebeiro-Hargrave", "Om Kathalkar", "Sachin Chaudhari"],
+      "venue": "EnvSys 2023, Helsinki, Finland",
+      "year": 2023,
+      "url": "https://doi.org/10.1145/3597064.3597322",
+      "description": "Mobile-platform protocol for identifying PM2.5 emission hotspots using IoT devices calibrated against reference instruments."
     },
     {
       "title": "CV and IoT-based Remote Triggered Labs: Use Case of Conservation of Mechanical Energy",
-      "authors": [
-        "K.S. Viswanadh",
-        "Om Kathalkar",
-        "Sachin Chaudhari"
-      ],
-      "conference": "FiCloud 2022",
-      "location": "Rome, Italy",
-      "description": "Discusses the use of Computer Vision in Remote Labs for virtual laboratory experiments."
+      "authors": ["K. S. Viswanadh", "Om Kathalkar", "Nitin Nilesh", "Sachin Chaudhari", "Venkatesh Choppella"],
+      "venue": "FiCloud 2022, Rome, Italy",
+      "year": 2022,
+      "url": "https://ieeexplore.ieee.org/document/9910543",
+      "description": "Computer vision-based velocity estimation for remote laboratory experiments, achieving 10x MSE improvement over IR-based methods."
     }
   ],
   "patents": [
     {
-      "title": "System and Method for Implementing an Experiment Remotely and Determining an Output Using a Computer Vision Model",
-      "type": "US Provisional Patent",
-      "applicationNumber": "US20240078641A1",
-      "publishDate": "March 2023"
+      "title": "System for Determining Air Quality Index (AQI) in Urban Environments",
+      "type": "Indian Patent",
+      "applicationNumber": "202541073518",
+      "filingDate": "July 2025"
     },
     {
-      "title": "System and Method for Generating Traffic-Related Air Quality Image Datasets",
-      "type": "Provisional Patent",
+      "title": "System and Method for Determining Air Quality by Processing Environmental and Traffic-Related Visual Data",
+      "type": "Indian Patent",
       "applicationNumber": "202441043706",
-      "filingDate": "May 2024"
+      "filingDate": "June 2024"
     },
     {
-      "title": "System and Method for Generating Multi-Modal Sensor Dataset for Traffic Related Pollution",
-      "type": "Provisional Patent",
-      "applicationNumber": "MY269127S",
-      "filingDate": "May 2024"
+      "title": "System and Method for Implementing an Experiment Remotely and Determining an Output Using a Computer Vision Model",
+      "type": "US Patent",
+      "applicationNumber": "18241852",
+      "publishDate": "March 2024",
+      "url": "https://patentcenter.uspto.gov/applications/18241852"
     }
   ],
   "experience": [
     {
-      "position": "AI-ML Mentor",
-      "company": "NSE TalentSprint",
-      "location": "Hyderabad",
-      "period": "May 2024 - Present",
+      "position": "Doctoral Researcher",
+      "company": "National Technical University of Athens (NTUA) / ICCS",
+      "location": "Athens, Greece",
+      "period": "Nov 2025 - Present",
       "responsibilities": [
-        "Mentoring industry professionals in AI/ML certification course",
+        "Research on efficient AI inference under Horizon Europe TURING project",
+        "Investigating dynamic computation, early exits, and deployment-aware model optimization",
+        "Bridging efficient inference with real-world industrial and edge constraints"
+      ]
+    },
+    {
+      "position": "Researcher",
+      "company": "Ericsson Research",
+      "location": "Remote",
+      "period": "Dec 2024 - Nov 2025",
+      "responsibilities": [
+        "Network-aware path planning for AMRs under Horizon Europe PANDORA project",
+        "Developed Sionna ray-tracing simulation framework (R2 = 0.87 vs real-world measurements)",
+        "Implemented and evaluated A*, CVAE, and GNN-based planners across industrial scenarios"
+      ]
+    },
+    {
+      "position": "AI-ML Mentor",
+      "company": "TalentSprint (Accenture)",
+      "location": "Hyderabad, India",
+      "period": "Apr 2024 - Present",
+      "responsibilities": [
+        "Mentoring industry professionals in AI Infinity and AI/ML certification programs",
         "Guiding participants through Machine Learning, Deep Learning, and Data Science",
-        "Mentoring teams in capstone projects aligned with University of Michigan"
+        "Supervising capstone projects in collaboration with University of Michigan"
       ]
     },
     {
       "position": "Research Scholar",
-      "company": "Signal Processing and Communications Research Centre, IIIT-H",
-      "period": "Aug 2021 - Present",
-      "supervisors": [
-        "Prof. Sachin Chaudhari",
-        "Prof. Anoop Namboodiri"
-      ],
+      "company": "SPCRC, IIIT Hyderabad",
+      "location": "Hyderabad, India",
+      "period": "Aug 2021 - Nov 2025",
+      "supervisors": ["Prof. Sachin Chaudhari", "Prof. Anoop M. Namboodiri"],
       "responsibilities": [
-        "Conducting research on Air Pollution Monitoring",
-        "Creating hardware-based nodes",
-        "Developing IoT-driven AQI estimation using image processing and learning methods"
+        "Built TRAQID dataset — 26,678 traffic images with AQI and meteorological annotations",
+        "Developed AQIFormer transformer architecture achieving 89.96% AQI classification accuracy",
+        "Conducted cross-city generalization experiments across Hyderabad and Nagpur datasets"
       ]
     },
     {
       "position": "Summer Intern",
-      "company": "e-Yantra Labs, IIT-Bombay",
-      "period": "May 2020 - August 2021",
+      "company": "e-Yantra Labs, IIT Bombay",
+      "location": "Mumbai, India",
+      "period": "May 2020 - Aug 2021",
       "supervisor": "Prof. Rohan Vaidya",
-      "project": "Warning System For Vehicles To Avoid Drowning In Waterlogged Roads",
-      "description": "Designed a solution using advanced sensors and displays to provide real-time water level measurements in low-lying areas"
+      "project": "Warning System for Vehicles to Avoid Drowning in Waterlogged Roads",
+      "description": "Designed real-time water-level detection solution using advanced sensors and display systems"
     }
   ],
   "teachingExperience": [
     {
       "role": "Teaching Assistant",
       "course": "Embedded Systems Workshop",
-      "institution": "IIIT-H",
+      "institution": "IIIT Hyderabad",
       "semester": "Monsoon 2024"
     },
     {
       "role": "Teaching Assistant",
       "course": "IoT Workshop",
-      "institution": "IIIT-H",
+      "institution": "IIIT Hyderabad",
       "semester": "Monsoon 2023"
     },
     {
@@ -162,21 +210,12 @@
     }
   ],
   "awardsAndHonors": [
-    "iHub-Data Research Fellowship for MS research and studies",
-    "Winner of the International Environmental Sensing Project Competition, University of Helsinki, Finland",
-    "Best Demo Award at IIIT-H's R&D Showcase 2022",
-    "AIR-1 Gold Award at the e-Yantra Ideas Competition held by IIT Bombay",
-    "Best Student of the Year of the batch 2023 at SVPCET, Nagpur",
-    "Best Project Award for the undergraduate final year project",
-    "Best Student of the Department of ETC Department, SVPCET, Nagpur"
-  ],
-  "projects": [
-    "Warning system for vehicles to avoid drowning in waterlogged roads",
-    "CV and IoT-based setup of Remote Triggered Labs for Conservation of Mechanical Energy experiment",
-    "IoT-based AQI Estimation using Image Processing and Learning Methods",
-    "Comparative Analysis of Construction-Related Air Pollution in Indoor and Outdoor Environments",
-    "Multi-Modal Cardiovascular Disease Risk Prediction and Early Detection System",
-    "AgeNet: A Transfer Learning-Based Deep Vision Architecture for Robust Facial Age Estimation Using ImageNet Pre-trained Models",
-    "Construction Site Safety and Activity Monitoring System using Qualcomm QIDK Kit"
+    "iHub-Data Research Fellowship for MS research at IIIT Hyderabad (2023)",
+    "Winner — International Environmental Sensing Project Competition, University of Helsinki, Finland (2023)",
+    "Best Demo Award at IIIT-H R&D Showcase 2022",
+    "AIR-1 Gold Award — e-Yantra Ideas Competition, IIT Bombay",
+    "Student of the Year (Engineering, Batch 2023), SVPCET Nagpur",
+    "Best Project Award — Undergraduate Final Year Project",
+    "Best Student of the ETC Department, SVPCET Nagpur"
   ]
 }

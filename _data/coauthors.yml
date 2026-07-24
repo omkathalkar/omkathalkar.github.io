@@ -1,34 +1,43 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"chaudhari":
+  - firstname: ["Sachin", "S.", "Sachin C."]
+    url: https://faculty.iiit.ac.in/~sachin.c/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"namboodiri":
+  - firstname: ["Anoop", "Anoop M.", "A.", "A. M."]
+    url: https://faculty.iiit.ac.in/~anoop/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"bouloukakis":
+  - firstname: ["Georgios", "G."]
+    url: https://gbouloukakis.com/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"tserpes":
+  - firstname: ["Konstantinos", "K."]
+    url: https://scholar.google.com/citations?user=e_-h5egAAAAJ
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"varvarigou":
+  - firstname: ["Theodora", "T."]
+    url: https://scholar.google.com/citations?user=kueSeb4AAAAJ
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"nilesh":
+  - firstname: ["Nitin", "N."]
+    url: https://scholar.google.com/citations?user=nitin-nilesh
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"hassan":
+  - firstname: ["Houssam", "Houssam Hajj", "H."]
+    url: https://www.linkedin.com/in/houssam-hajj-hassan/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"kattepur":
+  - firstname: ["Ajay", "A."]
+    url: https://scholar.google.com/citations?user=ajay-kattepur
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"choppella":
+  - firstname: ["Venkatesh", "V."]
+    url: https://faculty.iiit.ac.in/~venkatesh.choppella/
+
+"spanddhana":
+  - firstname: ["Sara", "S."]
+    url: https://www.linkedin.com/in/sara-spanddhana/
+
+"rebeiro-hargrave":
+  - firstname: ["Andrew", "A."]
+    url: https://researchportal.helsinki.fi/en/persons/andrew-rebeiro-hargrave

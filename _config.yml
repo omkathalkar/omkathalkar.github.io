@@ -5,7 +5,7 @@
 title: Om Kathalkar # the website title (if blank, full name will be used instead)
 first_name: Om
 last_name: Kathalkar
-email: om.kathalkar@research.iiit.ac.in
+email: omkathalkar.connect@gmail.com
 description: >
   AI researcher working on camera-based AQI estimation, deep learning, autonomous mobile robots, and network-aware path planning. MS by Research from IIIT Hyderabad.
 footer_text: >
@@ -61,9 +61,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: om_site.png # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -76,7 +76,7 @@ dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username: # your GitHub user name
+github_username: omkathalkar # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: https://ieeexplore.ieee.org/author/37089580264 # your ieeexplore.ieee.org/author/id
 inspirehep_id: # Inspire HEP author ID
@@ -131,8 +131,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Om's Notes # blog_name will be displayed in your blog page
+blog_description: Research notes on efficient AI, robotics, and computer vision
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -160,19 +160,13 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -312,8 +306,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Kathalkar]
+  first_name: [Om, O.]
 
   style: apa
   locale: en

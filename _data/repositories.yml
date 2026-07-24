@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - omkathalkar
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - omkathalkar/TRAQID-Traffic-Related-Air-Quality-Image-Dataset
+  - omkathalkar/aqiformer
+  - omkathalkar/IoT-based-AQI-Estimation-using-Image-Processing-and-Learning-Methods

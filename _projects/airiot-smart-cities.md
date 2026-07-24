@@ -2,7 +2,7 @@
 layout: page
 title: Vision-Based Air Quality Estimation for Smart Cities
 description: TRAQID dataset and AQIFormer for scalable, sensor-free AQI monitoring
-importance: 2
+importance: 3
 category: work
 related_publications: true
 ---
