@@ -2,13 +2,165 @@
 <html lang="{{ site.lang }}">
   <head>
     {% include head.liquid %}
+    <style>
+      .om-hero {
+        width: 100%;
+        background: #0d0d0f;
+        padding: 5rem 0;
+        box-sizing: border-box;
+      }
+      html[data-theme="dark"] .om-hero { background: #08080a; }
+
+      .om-hero-inner {
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 3rem;
+        box-sizing: border-box;
+      }
+
+      .om-hero-left  { flex: 1 1 55%; min-width: 0; }
+      .om-hero-right { flex: 0 0 320px; }
+
+      .om-hero-role {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        font-size: 0.68rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        color: #888;
+        text-transform: uppercase;
+        margin-bottom: 1.4rem;
+      }
+      .om-hero-role-line {
+        display: inline-block;
+        width: 36px;
+        height: 2px;
+        background: var(--global-theme-color, #b509ac);
+        flex-shrink: 0;
+      }
+
+      .om-hero-name {
+        font-size: 4rem;
+        font-weight: 800;
+        line-height: 1.08;
+        color: #ffffff;
+        letter-spacing: -0.02em;
+        margin: 0 0 1.4rem;
+      }
+      @media (max-width: 900px) { .om-hero-name { font-size: 2.8rem; } }
+
+      .om-hero-dot { color: var(--global-theme-color, #b509ac); }
+
+      .om-hero-tagline {
+        font-size: 1rem;
+        line-height: 1.65;
+        color: #a0a0a8;
+        max-width: 500px;
+        margin-bottom: 2rem;
+      }
+      .om-hero-tagline strong { color: #e0e0e8; font-weight: 600; }
+
+      .om-hero-actions {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+      }
+
+      .om-hero-btn {
+        display: inline-block;
+        padding: 0.6rem 1.4rem;
+        border: 1.5px solid rgba(255,255,255,0.3);
+        border-radius: 6px;
+        font-size: 0.88rem;
+        font-weight: 600;
+        color: #ffffff;
+        text-decoration: none;
+        transition: background 0.18s, border-color 0.18s, color 0.18s;
+      }
+      .om-hero-btn:hover {
+        background: var(--global-theme-color, #b509ac);
+        border-color: var(--global-theme-color, #b509ac);
+        color: #fff;
+        text-decoration: none;
+      }
+      .om-hero-btn-ghost {
+        border-color: rgba(255,255,255,0.15);
+        color: #aaa;
+      }
+      .om-hero-btn-ghost:hover {
+        background: transparent;
+        border-color: var(--global-theme-color, #b509ac);
+        color: var(--global-theme-color, #b509ac);
+      }
+
+      .om-hero-affil-row { margin-bottom: 1.2rem; }
+      .om-hero-affil {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.82rem;
+        color: #666;
+        font-family: monospace;
+      }
+      .om-dot-pulse {
+        display: inline-block;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: var(--global-theme-color, #b509ac);
+        animation: om-pulse 2s infinite;
+      }
+      @keyframes om-pulse {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50%       { opacity: 0.4; transform: scale(0.7); }
+      }
+
+      .om-hero-advisor { font-size: 0.82rem; color: #555; margin: 0; }
+      .om-hero-advisor a { color: var(--global-theme-color, #b509ac); text-decoration: none; }
+      .om-hero-advisor a:hover { text-decoration: underline; }
+
+      .om-hero-photo {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        object-position: top center;
+        border-radius: 4px;
+        display: block;
+        filter: grayscale(15%);
+        transition: filter 0.3s;
+      }
+      .om-hero-photo:hover { filter: grayscale(0%); }
+
+      @media (max-width: 768px) {
+        .om-hero { padding: 3rem 0; }
+        .om-hero-inner {
+          flex-direction: column-reverse;
+          gap: 2rem;
+        }
+        .om-hero-right {
+          flex: none;
+          width: 100%;
+          max-width: 300px;
+          margin: 0 auto;
+        }
+        .om-hero-photo { height: 280px; }
+      }
+    </style>
   </head>
 
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
     {% include header.liquid %}
 
-    <!-- ═══════════════════════════════════════════════ HERO ══ -->
+    <!-- ══════════════════════ HERO ══════════════════════════── -->
     <div class="om-hero">
       <div class="om-hero-inner">
 
@@ -30,6 +182,7 @@
             <a href="{{ '/publications/' | relative_url }}" class="om-hero-btn">View research &rarr;</a>
             <a href="{{ '/journey/' | relative_url }}" class="om-hero-btn om-hero-btn-ghost">My Journey &rarr;</a>
           </div>
+
           <div class="om-hero-affil-row">
             <span class="om-hero-affil">
               <span class="om-dot-pulse"></span>
@@ -53,31 +206,24 @@
 
       </div>
     </div>
-    <!-- ══════════════════════════════════════════════════════ -->
+    <!-- ═════════════════════════════════════════════════────── -->
 
-    <!-- Main page content -->
     <div class="container mt-5" role="main">
       <div class="post">
         <div class="clearfix">{{ content }}</div>
 
         {% if page.news and site.announcements.enabled %}
-          <h2>
-            <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-          </h2>
+          <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a></h2>
           {% include news.liquid limit=true %}
         {% endif %}
 
         {% if site.latest_posts.enabled %}
-          <h2>
-            <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-          </h2>
+          <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a></h2>
           {% include latest_posts.liquid %}
         {% endif %}
 
         {% if page.selected_papers %}
-          <h2>
-            <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-          </h2>
+          <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a></h2>
           {% include selected_papers.liquid %}
         {% endif %}
 
