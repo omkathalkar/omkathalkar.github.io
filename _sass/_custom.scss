@@ -1,0 +1,190 @@
+/*******************************************************************************
+ * Custom enhancements — animations, hover effects, dynamic components
+ ******************************************************************************/
+
+/* ── Scroll Reveal ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-delay-1 { transition-delay: 0.08s; }
+.reveal-delay-2 { transition-delay: 0.16s; }
+.reveal-delay-3 { transition-delay: 0.24s; }
+.reveal-delay-4 { transition-delay: 0.32s; }
+
+/* ── Global card hover lift ── */
+.card {
+  transition: transform 0.18s ease, box-shadow 0.18s ease !important;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* ── Publication entries hover ── */
+.publications li {
+  transition: transform 0.15s ease;
+}
+.publications li:hover {
+  transform: translateX(4px);
+}
+
+/* ── News items ── */
+.news table tr {
+  transition: background 0.15s ease;
+}
+.news table tr:hover td {
+  background: rgba(128, 128, 128, 0.06);
+}
+
+/* ── Stat counter bar ── */
+.stats-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0 1.5rem;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 1.1rem 0.75rem;
+  border-radius: 14px;
+  border: 1px solid rgba(128, 128, 128, 0.15);
+  background: var(--global-card-bg-color);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.stat-number {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--global-theme-color);
+  display: block;
+}
+.stat-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+  margin-top: 0.35rem;
+  display: block;
+}
+
+/* ── Research tags ── */
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 1.25rem 0 0.5rem;
+}
+.research-tag {
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.28rem 0.75rem;
+  border-radius: 20px;
+  background: rgba(128, 128, 128, 0.1);
+  color: var(--global-text-color);
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  cursor: default;
+}
+.research-tag:hover {
+  background: var(--global-theme-color);
+  color: #fff;
+  border-color: var(--global-theme-color);
+}
+
+/* ── Section divider ── */
+.section-divider {
+  height: 2px;
+  background: linear-gradient(90deg, var(--global-theme-color), transparent);
+  border: none;
+  margin: 2rem 0;
+  opacity: 0.35;
+}
+
+/* ── Animated gradient underline on h2 headings ── */
+.post-title,
+h2.post-title {
+  position: relative;
+  display: inline-block;
+}
+
+/* ── Nav link hover effect ── */
+.navbar .nav-item .nav-link {
+  position: relative;
+}
+.navbar .nav-item .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--global-theme-color);
+  transition: width 0.2s ease, left 0.2s ease;
+}
+.navbar .nav-item .nav-link:hover::after,
+.navbar .nav-item .nav-link.active::after {
+  width: 100%;
+  left: 0;
+}
+
+/* ── Profile image subtle glow on hover ── */
+.profile .col-sm-4 img,
+img.profile-img {
+  transition: box-shadow 0.3s ease;
+}
+.profile .col-sm-4 img:hover,
+img.profile-img:hover {
+  box-shadow: 0 0 0 4px var(--global-theme-color), 0 8px 32px rgba(0,0,0,0.18);
+}
+
+/* ── "Currently at" badge strip ── */
+.affiliation-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.1rem;
+}
+.affiliation-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.25rem 0.7rem;
+  border-radius: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  color: var(--global-text-color);
+  background: var(--global-card-bg-color);
+}
+.affiliation-badge .dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--global-theme-color);
+  animation: pulse-dot 2s infinite;
+}
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(0.7); }
+}
+
+/* ── Smooth page load ── */
+body {
+  animation: fadein 0.4s ease;
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

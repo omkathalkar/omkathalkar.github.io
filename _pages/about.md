@@ -17,8 +17,11 @@ social: false
 
 ---
 
-**Doctoral Researcher @ National Technical University of Athens (NTUA), Greece**  
-**Previously** — Researcher @ Ericsson Research | MS by Research @ IIIT Hyderabad  
+<div class="affiliation-strip">
+  <span class="affiliation-badge"><span class="dot"></span> Doctoral Researcher · NTUA, Greece</span>
+  <span class="affiliation-badge">Horizon Europe · TURING Project</span>
+  <span class="affiliation-badge">Previously · Ericsson Research</span>
+</div>
 
 **Email me at [omkathalkar.connect@gmail.com](mailto:omkathalkar.connect@gmail.com)**, or reach out to me on **[LinkedIn](https://www.linkedin.com/in/om-kathalkar/)**.
 
@@ -36,4 +39,36 @@ Alongside research, I remain involved in **education and mentoring**, working wi
 I completed my **B.E. in Electronics and Telecommunication Engineering** from **[St. Vincent Pallotti College of Engineering and Technology, Nagpur](https://www.stvincentngp.edu.in/)**, where I received multiple academic recognitions, including **AIR-1 (Gold Award) at the e-Yantra Ideas Competition (IIT Bombay)** and **Student of the Year (Engineering, 2023 batch)**.
 
 Outside research, I enjoy reading, playing cricket, hockey, and badminton, hiking, and writing short stories and poetry. I was born and raised in **[Amravati, Maharashtra](https://en.wikipedia.org/wiki/Amravati)**.
+
+<hr class="section-divider">
+
+<div class="stats-bar">
+  <div class="stat-card">
+    <span class="stat-number" data-target="8" data-suffix="+">0+</span>
+    <span class="stat-label">Papers & Patents</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-number" data-target="250" data-suffix="+">0+</span>
+    <span class="stat-label">Students Mentored</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-number" data-target="2" data-suffix="">0</span>
+    <span class="stat-label">Horizon Europe Projects</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-number" data-target="4" data-suffix="+">0+</span>
+    <span class="stat-label">Years in Research</span>
+  </div>
+</div>
+
+<div class="research-tags">
+  <span class="research-tag">Efficient AI Inference</span>
+  <span class="research-tag">KV-Cache Optimization</span>
+  <span class="research-tag">Large Language Models</span>
+  <span class="research-tag">Edge AI</span>
+  <span class="research-tag">Computer Vision</span>
+  <span class="research-tag">Network-Aware AI</span>
+  <span class="research-tag">Autonomous Mobile Robots</span>
+  <span class="research-tag">IoT & Sensing</span>
+</div>
 
