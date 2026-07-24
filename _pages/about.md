@@ -15,38 +15,6 @@ teaching: true
 selected_papers: true
 social: false
 
-featured_media:
-  
-  - title: "IIITH’s unique research pathway transforms interns into innovators"
-    source: "IIITH on Hans India"
-    date: "Jan 2026"
-    url: "https://www.thehansindia.com/news/cities/hyderabad/iiiths-unique-research-pathway-transforms-interns-into-innovators-1037828"
-
-  - title: "IIITH’s Alternate Admissions GATEway For Postgraduate Researchers"
-    source: "IIITH Blogs"
-    date: "Jan 2026"
-    url: "https://blogs.iiit.ac.in/pg-standingcommittee/"
-
-  - title: "Pallotti Pride: Academic Excellence Highlight"
-    source: "SVPCET on LinkedIn"
-    date: "Nov 2025"
-    url: "https://www.linkedin.com/posts/svpcet_pallottipride-academicexcellence-iiithyderabad-activity-7399380317415043072-DqaQ"
-    
-  - title: "Om Rajendra Kathalkar – IIIT-H Monthly News"
-    source: "IIIT Hyderabad Blog"
-    date: "Nov 2025"
-    url: "https://blogs.iiit.ac.in/monthly_news/om-rajendra-kathalkar/"
-
-  - title: "Sensor-Free Method Wins Environmental Sensing Competition"
-    source: "IIIT Hyderabad Blog"
-    date: "Feb 2023"
-    url: "https://blogs.iiit.ac.in/aqi/"
-
-  - title: "IoT-based AQI Estimation – Detailed Project Story"
-    source: "IIIT Hyderabad Research"
-    date: "2022"
-    url: "https://mobility.iiit.ac.in/air_quality-blog.php"
-    
 ---
 
 **Doctoral Researcher @ National Technical University of Athens (NTUA), Greece**  
@@ -69,29 +37,3 @@ I completed my **B.E. in Electronics and Telecommunication Engineering** from **
 
 Outside research, I enjoy reading, playing cricket, hockey, and badminton, hiking, and writing short stories and poetry. I was born and raised in **[Amravati, Maharashtra](https://en.wikipedia.org/wiki/Amravati)**.
 
----
-
-## Featured Media
-
-Some places where my work has been highlighted.
-
-{% if page.featured_media %}
-<div class="row">
-  {% for item in page.featured_media %}
-  <div class="col-md-4 col-sm-6 mb-4">
-    <a href="{{ item.url }}" target="_blank" class="card h-100">
-      {% if item.thumbnail %}
-      <img src="{{ item.thumbnail }}" class="card-img-top" alt="{{ item.title }} thumbnail">
-      {% endif %}
-      <div class="card-body">
-        <h5 class="card-title">{{ item.title }}</h5>
-        <p class="card-text">
-          {% if item.source %}{{ item.source }}{% endif %}
-          {% if item.date %} · {{ item.date }}{% endif %}
-        </p>
-      </div>
-    </a>
-  </div>
-  {% endfor %}
-</div>
-{% endif %}
