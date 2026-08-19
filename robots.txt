@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://omkathalkar.github.io/sitemap.xml
