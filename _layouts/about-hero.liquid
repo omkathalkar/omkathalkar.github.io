@@ -37,6 +37,17 @@
         text-transform: uppercase;
         margin-bottom: 1.4rem;
       }
+      .om-typer-cursor {
+        display: inline-block;
+        color: var(--global-theme-color, #b509ac);
+        animation: om-blink 0.75s step-end infinite;
+        font-weight: 400;
+        margin-left: 1px;
+      }
+      @keyframes om-blink {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0; }
+      }
       .om-hero-role-line {
         display: inline-block;
         width: 36px;
@@ -167,7 +178,7 @@
         <div class="om-hero-left">
           <div class="om-hero-role">
             <span class="om-hero-role-line"></span>
-            PHD RESEARCHER &middot; NATIONAL TECHNICAL UNIVERSITY OF ATHENS
+            <span id="om-role-typer"></span><span class="om-typer-cursor">|</span>
           </div>
 
           <h1 class="om-hero-name">
@@ -198,7 +209,7 @@
 
         <div class="om-hero-right">
           <img
-            src="{{ '/assets/img/om_site.png' | relative_url }}"
+            src="{{ '/assets/img/om_headshot.png' | relative_url }}"
             alt="Om Rajendra Kathalkar"
             class="om-hero-photo"
           />

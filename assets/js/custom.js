@@ -77,9 +77,54 @@
     });
   }
 
+  // ── Typewriter / cycling role text ─────────────────────────────────────────
+  function initTypewriter() {
+    const el = document.getElementById("om-role-typer");
+    if (!el) return;
+
+    const phrases = [
+      "PHD RESEARCHER · NATIONAL TECHNICAL UNIVERSITY OF ATHENS",
+      "EFFICIENT AI INFERENCE · KV-CACHE OPTIMIZATION",
+      "COMPUTER VISION · ENVIRONMENTAL AI",
+    ];
+
+    let phraseIdx = 0;
+    let charIdx = 0;
+    let deleting = false;
+    const TYPE_MS = 38;
+    const DEL_MS = 18;
+    const PAUSE_MS = 2600;
+    const END_PAUSE_MS = 400;
+
+    function tick() {
+      const phrase = phrases[phraseIdx];
+      if (!deleting) {
+        el.textContent = phrase.slice(0, ++charIdx);
+        if (charIdx === phrase.length) {
+          deleting = true;
+          setTimeout(tick, PAUSE_MS);
+          return;
+        }
+        setTimeout(tick, TYPE_MS);
+      } else {
+        el.textContent = phrase.slice(0, --charIdx);
+        if (charIdx === 0) {
+          deleting = false;
+          phraseIdx = (phraseIdx + 1) % phrases.length;
+          setTimeout(tick, END_PAUSE_MS);
+          return;
+        }
+        setTimeout(tick, DEL_MS);
+      }
+    }
+
+    tick();
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     wrapReveal();
     initReveal();
     initCounters();
+    initTypewriter();
   });
 })();

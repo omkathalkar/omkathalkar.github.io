@@ -79,29 +79,6 @@
   display: block;
 }
 
-/* ── Research tags ── */
-.research-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem;
-  margin: 1.25rem 0 0.5rem;
-}
-.research-tag {
-  font-size: 0.78rem;
-  font-weight: 600;
-  padding: 0.28rem 0.75rem;
-  border-radius: 20px;
-  background: rgba(128, 128, 128, 0.1);
-  color: var(--global-text-color);
-  border: 1px solid rgba(128, 128, 128, 0.2);
-  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
-  cursor: default;
-}
-.research-tag:hover {
-  background: var(--global-theme-color);
-  color: #fff;
-  border-color: var(--global-theme-color);
-}
 
 /* ── Section divider ── */
 .section-divider {
@@ -390,3 +367,4 @@ html[data-theme="dark"] .om-hero {
     font-size: 2.6rem;
   }
 }
+
