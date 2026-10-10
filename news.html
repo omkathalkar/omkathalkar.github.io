@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>News — Om Kathalkar</title>
+<meta name="description" content="News — Om Kathalkar — Doctoral Researcher at ICCS, National Technical University of Athens.">
+<meta property="og:title" content="News — Om Kathalkar">
+<meta property="og:image" content="https://omkathalkar.github.io/assets/img/om_athens.jpg">
+<meta name="theme-color" content="#0d0d0d">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%230d0d0d'/%3E%3Ctext x='10' y='44' font-family='monospace' font-size='34' font-weight='700' fill='%23e8e8e8'%3Eok%3C/text%3E%3Ccircle cx='52' cy='42' r='4' fill='%234f82ff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+  /* ── NEWS PAGE OVERRIDES ── */
+  .news-page-head {
+    padding: 48px 0 40px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 0;
+  }
+  .news-page-head .label { margin-bottom: 10px; }
+  .news-page-head h1 {
+    font-size: clamp(36px, 4vw, 54px);
+    line-height: 1.1;
+    margin: 0 0 10px;
+  }
+  .news-page-head p { color: var(--muted); font-size: 14px; }
+
+  /* ── FILTER TABS ── */
+  .filter-bar {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .filter-bar::-webkit-scrollbar { display: none; }
+  .filter-tab {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 20px;
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .filter-tab:hover { color: var(--text); }
+  .filter-tab[aria-pressed="true"] {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+  .filter-tab .count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    height: 20px;
+    padding: 0 5px;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: 700;
+    background: var(--surface);
+    color: var(--muted);
+  }
+  .filter-tab[aria-pressed="true"] .count {
+    background: rgba(79,130,255,0.15);
+    color: var(--accent);
+  }
+
+  /* ── YEAR GROUPS ── */
+  .news-scope { padding-bottom: 80px; }
+  .ng {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 0 48px;
+    border-bottom: 1px solid var(--line);
+  }
+  .ng:last-child { border-bottom: none; }
+  .ng-year {
+    padding-top: 32px;
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--muted);
+    letter-spacing: 0.06em;
+    position: sticky;
+    top: 72px;
+    align-self: start;
+  }
+  .ng-items { border-left: 1px solid var(--line); }
+
+  /* ── NEWS ITEMS ── */
+  .ni {
+    display: grid;
+    grid-template-columns: 52px 1fr auto;
+    gap: 0 20px;
+    align-items: baseline;
+    padding: 20px 24px 20px 28px;
+    border-bottom: 1px solid var(--line);
+    transition: background 0.12s;
+  }
+  .ni:last-child { border-bottom: none; }
+  .ni:hover { background: var(--surface); }
+  .ni-month {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-2);
+    letter-spacing: 0.04em;
+    padding-top: 2px;
+    text-transform: uppercase;
+  }
+  .ni-text {
+    font-size: 15px;
+    color: var(--text);
+    line-height: 1.55;
+  }
+  .ni-tag {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 2px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    border: 1px solid;
+  }
+  .ni-tag.Paper  { color: var(--accent);  border-color: rgba(79,130,255,0.35);  background: rgba(79,130,255,0.07); }
+  .ni-tag.Career { color: var(--career);  border-color: rgba(47,191,155,0.35);  background: rgba(47,191,155,0.07); }
+  .ni-tag.Milestone { color: var(--patent); border-color: rgba(224,138,92,0.35); background: rgba(224,138,92,0.07); }
+
+  /* ── COUNT STRIP ── */
+  .count-strip {
+    display: flex;
+    gap: 24px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 0;
+  }
+  .count-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .count-item .n {
+    font-family: var(--mono);
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1;
+  }
+  .count-item .l {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .count-div { width: 1px; background: var(--line); align-self: stretch; }
+
+  /* ── HIDDEN ── */
+  .ni[hidden]  { display: none !important; }
+  .ng[hidden]  { display: none !important; }
+
+  @media (max-width: 640px) {
+    .ng { grid-template-columns: 1fr; }
+    .ng-year { position: static; padding: 24px 0 4px; border-left: none; }
+    .ng-items { border-left: none; }
+    .ni { grid-template-columns: 44px 1fr; gap: 0 12px; padding: 16px 0; }
+    .ni-tag { display: none; }
+    .count-strip { gap: 16px; }
+    .count-item .n { font-size: 22px; }
+  }
+</style>
+</head>
+<body class="subpage">
+
+<header class="site-header">
+  <nav class="nav wrap" aria-label="Main">
+    <a class="brand" href="index.html" aria-label="Om Kathalkar — home">
+      <span class="brand-mark">ok<span>.</span></span>
+      <span class="brand-sub">Athens · 37.98° N</span>
+    </a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="publications.html">Publications</a>
+      <a class="nav-link" href="featured.html">Featured</a>
+      <a class="nav-link" href="news.html" aria-current="page">News</a>
+      <a class="btn btn-primary" href="assets/docs/Om_Kathalkar_CV.pdf">CV ↓</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <!-- ── PAGE HEADER ── -->
+    <div class="news-page-head">
+      <div class="label">Updates</div>
+      <h1>News</h1>
+      <p>Papers, milestones and moves — newest first.</p>
+    </div>
+
+    <!-- ── STATS ── -->
+    <div class="count-strip">
+      <div class="count-item"><span class="n">12</span><span class="l">Total</span></div>
+      <div class="count-div"></div>
+      <div class="count-item"><span class="n">5</span><span class="l" style="color:var(--accent)">Papers</span></div>
+      <div class="count-div"></div>
+      <div class="count-item"><span class="n">3</span><span class="l" style="color:var(--career)">Career</span></div>
+      <div class="count-div"></div>
+      <div class="count-item"><span class="n">4</span><span class="l" style="color:var(--patent)">Milestones</span></div>
+    </div>
+
+    <!-- ── FILTER TABS ── -->
+    <div class="filter-bar" role="group" aria-label="Filter news" data-filter-group="#news-scope">
+      <button type="button" class="filter-tab" data-filter="all" aria-pressed="true">
+        All <span class="count">12</span>
+      </button>
+      <button type="button" class="filter-tab" data-filter="Paper" aria-pressed="false">
+        Papers <span class="count">5</span>
+      </button>
+      <button type="button" class="filter-tab" data-filter="Career" aria-pressed="false">
+        Career <span class="count">3</span>
+      </button>
+      <button type="button" class="filter-tab" data-filter="Milestone" aria-pressed="false">
+        Milestones <span class="count">4</span>
+      </button>
+    </div>
+
+    <!-- ── NEWS LIST ── -->
+    <div id="news-scope" class="news-scope">
+
+      <div class="ng" data-year="2026">
+        <div class="ng-year">2026</div>
+        <div class="ng-items">
+          <div class="ni" data-kind="Milestone">
+            <span class="ni-month">Oct</span>
+            <span class="ni-text"><strong>US Patent No. 12762660 granted</strong> — "System and Method for Implementing an Experiment Remotely and Determining an Output Using a Computer Vision Model" (USPTO, Application 18/241,852).</span>
+            <span class="ni-tag Milestone">Milestone</span>
+          </div>
+          <div class="ni" data-kind="Paper">
+            <span class="ni-month">Sep</span>
+            <span class="ni-text">PAN-AQI accepted at the <strong>IEEE World Forum on Internet of Things (WFIoT) 2026</strong> — pan-India visual air quality benchmark using VLMs and LRMs.</span>
+            <span class="ni-tag Paper">Paper</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="ng" data-year="2025">
+        <div class="ng-year">2025</div>
+        <div class="ng-items">
+          <div class="ni" data-kind="Career">
+            <span class="ni-month">Nov</span>
+            <span class="ni-text">Joined <strong>ICCS / NTUA</strong> as a Doctoral Researcher under the Horizon Europe TURING project (Task 4.4).</span>
+            <span class="ni-tag Career">Career</span>
+          </div>
+          <div class="ni" data-kind="Milestone">
+            <span class="ni-month">Nov</span>
+            <span class="ni-text">Defended my MS by Research thesis, <em>"Camera-Based Deep Learning Framework for AQI Estimation: Dataset and Methodology"</em>, at <strong>IIIT Hyderabad</strong>.</span>
+            <span class="ni-tag Milestone">Milestone</span>
+          </div>
+          <div class="ni" data-kind="Paper">
+            <span class="ni-month">Oct</span>
+            <span class="ni-text">Network-aware path planning for AMRs accepted at <strong>IEEE ANTS 2025</strong>.</span>
+            <span class="ni-tag Paper">Paper</span>
+          </div>
+          <div class="ni" data-kind="Paper">
+            <span class="ni-month">Oct</span>
+            <span class="ni-text"><strong>AQIFormer</strong> accepted at <strong>ICVGIP 2025</strong> — transformer-based multi-view architecture for cross-city air quality classification.</span>
+            <span class="ni-tag Paper">Paper</span>
+          </div>
+<div class="ni" data-kind="Paper">
+            <span class="ni-month">Aug</span>
+            <span class="ni-text">Submitted two papers — to <strong>ICVGIP 2025</strong> (IIT Mandi) and <strong>IEEE ANTS 2025</strong> (Delhi).</span>
+            <span class="ni-tag Paper">Paper</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="ng" data-year="2024">
+        <div class="ng-year">2024</div>
+        <div class="ng-items">
+          <div class="ni" data-kind="Career">
+            <span class="ni-month">Dec</span>
+            <span class="ni-text">Joined <strong>Ericsson Research AI</strong> — network-aware robotics in the Horizon Europe PANDORA project.</span>
+            <span class="ni-tag Career">Career</span>
+          </div>
+          <div class="ni" data-kind="Paper">
+            <span class="ni-month">Oct</span>
+            <span class="ni-text"><strong>TRAQID</strong> accepted at <strong>ICVGIP 2024</strong>, presented as a spotlight at IIIT Bangalore.</span>
+            <span class="ni-tag Paper">Paper</span>
+          </div>
+          <div class="ni" data-kind="Career">
+            <span class="ni-month">Apr</span>
+            <span class="ni-text">Joined <strong>TalentSprint (NSE)</strong> as an AI/ML Mentor.</span>
+            <span class="ni-tag Career">Career</span>
+          </div>
+          <div class="ni" data-kind="Milestone">
+            <span class="ni-month">Mar</span>
+            <span class="ni-text">US patent on computer-vision-evaluated remote experiments accepted for publication at the <strong>USPTO</strong>.</span>
+            <span class="ni-tag Milestone">Milestone</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="ng" data-year="2023">
+        <div class="ng-year">2023</div>
+        <div class="ng-items">
+          <div class="ni" data-kind="Milestone">
+            <span class="ni-month">Jul</span>
+            <span class="ni-text">Awarded the <strong>iHub-Data Fellowship</strong> for MS research at IIIT Hyderabad.</span>
+            <span class="ni-tag Milestone">Milestone</span>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /news-scope -->
+
+  </div><!-- /wrap -->
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 Om Rajendra Kathalkar</span>
+    <span>Last updated October 2026 · Athens</span>
+  </div>
+</footer>
+
+<script>
+  /* ── FILTER TABS ── */
+  const tabs   = document.querySelectorAll('.filter-tab')
+  const items  = document.querySelectorAll('.ni')
+  const groups = document.querySelectorAll('.ng')
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const f = tab.dataset.filter
+      tabs.forEach(t => t.setAttribute('aria-pressed', 'false'))
+      tab.setAttribute('aria-pressed', 'true')
+
+      items.forEach(item => {
+        const match = f === 'all' || item.dataset.kind === f
+        item.hidden = !match
+      })
+
+      /* hide year groups that have no visible items */
+      groups.forEach(g => {
+        const visible = [...g.querySelectorAll('.ni')].some(i => !i.hidden)
+        g.hidden = !visible
+      })
+    })
+  })
+</script>
+</body>
+</html>

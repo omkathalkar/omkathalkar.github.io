@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Om Kathalkar — Doctoral Researcher, NTUA</title>
+<meta name="description" content="Om Kathalkar — Doctoral Researcher at ICCS, National Technical University of Athens, working on efficient inference for large language and foundation models.">
+<meta property="og:title" content="Om Kathalkar — Doctoral Researcher, NTUA">
+<meta property="og:description" content="Om Kathalkar — Doctoral Researcher at ICCS, National Technical University of Athens, working on efficient inference for large language and foundation models.">
+<meta property="og:image" content="https://omkathalkar.github.io/assets/img/om_athens.jpg">
+<meta name="theme-color" content="#0d0d0d">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%230d0d0d'/%3E%3Ctext x='10' y='44' font-family='monospace' font-size='34' font-weight='700' fill='%23e8e8e8'%3Eok%3C/text%3E%3Ccircle cx='52' cy='42' r='4' fill='%234f82ff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav wrap" aria-label="Main">
+    <a class="brand" href="index.html" aria-label="Om Kathalkar — home">
+      <span class="brand-mark">ok<span>.</span></span>
+      <span class="brand-sub">Athens · 37.98° N</span>
+    </a>
+    <div class="nav-links">
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#research">Research</a>
+      <a class="nav-link" href="publications.html">Publications</a>
+      <a class="nav-link" href="featured.html">Featured</a>
+      <a class="nav-link" href="news.html">News</a>
+      <a class="nav-link" href="#contact">Contact</a>
+      <a class="btn btn-primary" href="assets/docs/Om_Kathalkar_CV.pdf">CV ↓</a>
+    </div>
+  </nav>
+</header>
+
+<div class="latest" aria-label="Latest news" data-latest='[[&quot;Oct 2026&quot;, &quot;US Patent No. 12762660 granted — computer-vision-evaluated remote experiments (USPTO).&quot;], [&quot;Sep 2026&quot;, &quot;PAN-AQI accepted at the IEEE World Forum on Internet of Things (WFIoT) 2026.&quot;], [&quot;Nov 2025&quot;, &quot;Joined ICCS / NTUA as a Doctoral Researcher.&quot;], [&quot;Nov 2025&quot;, &quot;Defended my MS by Research thesis, \&quot;Camera-Based Deep Learning Framework for AQI Estimation: Dataset and Methodology\&quot;, at IIIT Hyderabad.&quot;], [&quot;Oct 2025&quot;, &quot;Network-aware path planning for AMRs accepted at IEEE ANTS 2025.&quot;], [&quot;Oct 2025&quot;, &quot;AQIFormer accepted at ICVGIP 2025.&quot;], [&quot;Aug 2025&quot;, &quot;Submitted my MS thesis.&quot;]]'>
+  <div class="latest-row wrap">
+    <span class="latest-tag">Latest</span>
+    <span class="latest-date"></span>
+    <span class="latest-text" aria-live="polite"></span>
+    <div class="latest-ctrl"><button type="button" data-prev aria-label="Previous update">‹</button><span class="latest-pos"></span><button type="button" data-next aria-label="Next update">›</button></div>
+  </div>
+  <div class="latest-bar"></div>
+</div>
+
+<main>
+<section id="home" class="hero wrap">
+  <div class="hero-text">
+    <p class="hero-kicker">Doctoral Researcher — ICCS, National Technical University of Athens</p>
+    <h1>Om Rajendra<br>Kathalkar</h1>
+    <div class="hero-bars" aria-hidden="true"><span style="flex:3;background:var(--accent)"></span><span style="flex:1;background:var(--accent-2)"></span><span style="flex:2;background:var(--line)"></span><span style="flex:1;background:var(--accent)"></span><span style="flex:4;background:var(--line)"></span><span style="flex:1;background:var(--accent-2)"></span></div>
+    <p class="hero-lead">I make large language models <em>remember less and answer just as well</em> — efficient inference for real, resource-constrained deployments.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#research">View research →</a>
+      <a class="btn btn-ghost" href="#kv">Try the KV-cache demo</a>
+    </div>
+  </div>
+  <figure class="hero-photo">
+    <img src="assets/img/om_athens.jpg" alt="Om Kathalkar on a rooftop in Athens at sunset" width="753" height="1003">
+    <figcaption>Zografou, Athens · 2026</figcaption>
+  </figure>
+</section>
+
+<div class="wrap"><dl class="facts" aria-label="At a glance"><div><dt>Role</dt><dd>Doctoral Researcher, ICCS / NTUA</dd></div><div><dt>Project</dt><dd>f-inference</dd></div><div><dt>Advisor</dt><dd><a href="https://scholar.google.com/citations?user=e_-h5egAAAAJ&amp;hl=el">Prof. Konstantinos Tserpes ↗</a></dd></div><div><dt>Based in</dt><dd>Athens, Greece</dd></div></dl></div>
+
+<section id="kv" class="kv" aria-labelledby="kv-h" data-kv>
+  <div class="kv-inner wrap">
+    <div class="kv-copy">
+      <span class="label" style="color:var(--accent-2)">My research in 20 seconds</span>
+      <h2 id="kv-h">What is KV-cache compression?</h2>
+      <p>While an LLM reads, it stores a key and a value for every token. On long prompts and long reasoning chains that cache fills GPU memory. Eviction keeps the tokens that matter and drops the rest. Drag the budget to see it.</p>
+      <label for="kv-budget"><span>Cache budget</span><span data-budget>35%</span></label>
+      <input id="kv-budget" type="range" min="10" max="100" step="5" value="35">
+      <div class="kv-meter">
+        <div class="kv-meter-row"><span>Tokens kept</span><strong data-kept></strong></div>
+        <div class="kv-track"><div class="kv-fill"></div></div>
+      </div>
+      <p class="kv-note">Illustration only — importance scores are hand-set for this demo. The first token is always kept: models lean on it as an attention sink.</p>
+    </div>
+    <div class="kv-tokens" aria-label="Tokens in the cache"><span class="tok sink" data-score="1">[BOS]</span><span class="tok" data-score="0.2">To</span><span class="tok" data-score="0.6">answer</span><span class="tok" data-score="0.1">a</span><span class="tok" data-score="0.5">long</span><span class="tok" data-score="0.85">question</span><span class="tok" data-score="0.04">,</span><span class="tok" data-score="0.1">the</span><span class="tok" data-score="0.62">model</span><span class="tok" data-score="0.5">stores</span><span class="tok" data-score="0.05">a</span><span class="tok" data-score="0.74">key</span><span class="tok" data-score="0.1">and</span><span class="tok" data-score="0.72">value</span><span class="tok" data-score="0.2">for</span><span class="tok" data-score="0.4">every</span><span class="tok" data-score="0.8">token</span><span class="tok" data-score="0.08">it</span><span class="tok" data-score="0.1">has</span><span class="tok" data-score="0.52">read</span><span class="tok" data-score="0.04">.</span><span class="tok" data-score="0.42">Most</span><span class="tok" data-score="0.09">of</span><span class="tok" data-score="0.3">them</span><span class="tok" data-score="0.48">barely</span><span class="tok" data-score="0.7">matter</span><span class="tok" data-score="0.04">,</span><span class="tok" data-score="0.2">so</span><span class="tok" data-score="0.3">we</span><span class="tok" data-score="0.9">keep</span><span class="tok" data-score="0.11">the</span><span class="tok" data-score="0.64">few</span><span class="tok" data-score="0.3">that</span><span class="tok" data-score="0.5">do</span><span class="tok" data-score="0.12">and</span><span class="tok" data-score="0.82">free</span><span class="tok" data-score="0.06">the</span><span class="tok" data-score="0.6">rest</span><span class="tok" data-score="0.04">.</span></div>
+  </div>
+</section>
+
+<section id="about" class="section wrap" style="padding-top:96px">
+  <div class="section-head"><div class="section-title"><span class="section-num">01</span><h2>About</h2></div></div>
+  <div class="about-grid">
+    <div>
+      <p class="about-intro">I'm a PhD researcher at the <strong>Institute of Communication and Computer Systems (ICCS)</strong>, National Technical University of Athens, working on <strong>efficient AI inference</strong> for resource-constrained and distributed environments.</p>
+      <table class="about-table"><tbody><tr><th scope="row">Currently</th><td>Doctoral Researcher, ICCS, National Technical University of Athens</td></tr><tr><th scope="row">Project</th><td>f-inference — Efficient Foundation Model Inference Across the Computing Continuum</td></tr><tr><th scope="row">Focus</th><td>Efficient inference for large language and foundation models</td></tr><tr><th scope="row">Previously</th><td>Researcher, Ericsson Research AI · MS by Research, IIIT Hyderabad</td></tr><tr><th scope="row">Languages</th><td>English, Marathi, Hindi</td></tr></tbody></table>
+    </div>
+    <div class="about-bio"><p>My research sits where systems meet machine learning: how large language models can be made leaner in what they store, move and compute, without losing the reasoning quality that makes them useful.</p><p>Before Athens I completed an <strong>MS by Research at IIIT Hyderabad</strong>, building TRAQID, a 26,678-image traffic air-quality dataset, and AQIFormer, a transformer that classifies AQI across cities. At <strong>Ericsson Research AI</strong> I worked on network-aware path planning for factory robots in the Horizon Europe PANDORA project.</p><p>I believe inference efficiency is the bottleneck between lab-scale models and real deployment, and the most interesting work lives at that boundary. Outside research: cricket, hockey, badminton, hiking, and writing short stories and poetry.</p></div>
+  </div>
+</section>
+
+<section id="research" class="section wrap">
+  <div class="section-head"><div class="section-title"><span class="section-num">02</span><h2>Research</h2></div></div>
+  <article class="project" aria-labelledby="fi-h">
+    <div class="project-main">
+      <span class="label">Current project</span><span class="dot"></span>
+      <h3 id="fi-h">f-inference</h3>
+      <p class="project-sub">Efficient Foundation Model Inference Across the Computing Continuum</p>
+      <p>Foundation models are trained on broad data and adapt to tasks across text, images, audio, video and time series — but running them today depends on centralised cloud providers, costs a lot of energy and money, and adds latency.</p><p>f-inference builds a Resource-driven Computing Continuum that distributes foundation-model inference across Cloud, Edge and IoT, moving it closer to data and users through adaptive, efficient inference — cutting latency, energy and cost while preserving data sovereignty, and opening advanced GenAI to SMEs and resource-constrained communities.</p>
+    </div>
+    <div class="project-side">
+      <p class="label" style="color:var(--muted);margin-bottom:14px">Challenges it tackles</p>
+      <ol><li><b>1</b><span>Dependence on centralised cloud providers, threatening digital sovereignty and data security</span></li><li><b>2</b><span>High energy demands that conflict with sustainability goals</span></li><li><b>3</b><span>Costs that exclude SMEs from deploying and customising models</span></li><li><b>4</b><span>Remote services that add latency and single points of failure</span></li></ol>
+    </div>
+  </article>
+  <div class="research-list">
+<details open>
+  <summary><span class="r-num">01</span><span class="r-head"><span class="r-tag">Efficient LLM inference</span><span class="r-title">Efficient inference for large language models</span></span><span class="r-when">2025 — now</span><span class="r-icon" aria-hidden="true">+</span></summary>
+  <div class="r-body"><p>Large language models are powerful but costly to run: their sheer size, attention that grows quadratically with input length, and token-by-token decoding drive up latency, memory and energy. My research makes LLM inference leaner across the data, model and system levels — reducing what a model stores, moves and computes — so it runs fast and reliably on constrained hardware, closer to where the data lives.</p></div>
+</details>
+<details>
+  <summary><span class="r-num">02</span><span class="r-head"><span class="r-tag">Robotics · Networks</span><span class="r-title">Network-aware path planning for industrial robots</span></span><span class="r-when">2024 — 2025</span><span class="r-icon" aria-hidden="true">+</span></summary>
+  <div class="r-body"><p>Factory robots are limited by wireless quality as much as by floor space. With Ericsson Research AI I built a Sionna ray-tracing framework validated on real measurements (R² = 0.87) and planners that co-optimise path cost and coverage; a spatial-aware transformer predicts SNR within 2.31 dB and runs 31× faster than GNN baselines.</p><ul><li>AMR path planning</li><li>Sionna ray tracing</li><li>CVAE · GraphMP</li><li>IEEE ANTS 2025</li><li>Springer Autonomous Robots</li></ul></div>
+</details>
+<details>
+  <summary><span class="r-num">03</span><span class="r-head"><span class="r-tag">Computer vision · Air quality</span><span class="r-title">Visual air-quality intelligence</span></span><span class="r-when">2021 — 2025</span><span class="r-icon" aria-hidden="true">+</span></summary>
+  <div class="r-body"><p>Estimating air quality from street-level images removes the dependency on expensive sensor networks. I built TRAQID — 26,678 front and rear traffic images with co-located AQI and weather data — and AQIFormer, a multi-view transformer reaching 89.96% accuracy and 81.67% on a city unseen in training.</p><ul><li>TRAQID</li><li>AQIFormer</li><li>Vision transformers</li><li>Cross-city generalisation</li><li>PAN-AQI</li></ul></div>
+</details>
+<details>
+  <summary><span class="r-num">04</span><span class="r-head"><span class="r-tag">IoT · Education</span><span class="r-title">Remote, vision-evaluated laboratories</span></span><span class="r-when">2021 — 2022</span><span class="r-icon" aria-hidden="true">+</span></summary>
+  <div class="r-body"><p>A platform that lets students run real physics experiments over the internet, with computer vision measuring the outcome — about 10× lower error than infrared sensing. It served thousands of learners and led to a FiCloud 2022 paper and a US patent.</p><ul><li>Remote labs</li><li>Computer vision</li><li>IoT</li><li>FiCloud 2022</li><li>US patent</li></ul></div>
+</details>
+  </div>
+</section>
+
+<section id="experience" class="section wrap">
+  <div class="section-head"><div class="section-title"><span class="section-num">03</span><h2>Path</h2></div><a class="btn-small" href="assets/docs/Om_Kathalkar_CV.pdf">Full CV ↗</a></div>
+  <ol class="path"><li><span class="when">Nov 2025 — now</span><span class="role">Doctoral Researcher</span><span class="org">ICCS, NTUA · Athens</span><span class="note">Efficient foundation-model inference, f-inference project.</span></li><li><span class="when">Dec 2024 — Nov 2025</span><span class="role">Researcher</span><span class="org">Ericsson Research AI</span><span class="note">Network-aware AMR path planning, Horizon Europe PANDORA.</span></li><li><span class="when">Apr 2024 — now</span><span class="role">AI/ML Mentor</span><span class="org">TalentSprint (Accenture)</span><span class="note">AI Infinity and AI/ML certification programmes.</span></li></ol>
+</section>
+
+<section id="publications" class="section wrap">
+  <div class="section-head"><div class="section-title"><span class="section-num">04</span><h2>Publications</h2></div><a class="btn-small" href="publications.html">All 10 publications &amp; patents →</a></div>
+  <ul class="pub-list">
+<li class="pub paper" data-kind="paper">
+  <span class="pub-year">2026</span>
+  <div class="pub-body">
+    <span class="pub-venue">Springer Nature · Autonomous Robots</span>
+    <span class="pub-title">Network-aware path planning for AMRs: A generalizable framework with spatial-aware adaptation</span>
+    <span class="pub-authors"><strong>Om Kathalkar</strong>, Houssam Hajj Hassan, Ajay Kattepur, Georgios Bouloukakis</span>
+    
+  </div>
+  <img src="assets/img/publications/network_aware_2026.jpg" alt="Figure from Network-aware path planning for AMRs: A generalizable framework with spatial-aware adaptation" loading="lazy">
+</li>
+<li class="pub paper" data-kind="paper">
+  <span class="pub-year">2026</span>
+  <div class="pub-body">
+    <span class="pub-venue">IEEE WFIoT 2026 · accepted</span>
+    <span class="pub-title">PAN-AQI: A Panoramic Dataset and Framework for Urban Air Quality Estimation</span>
+    <span class="pub-authors">Ansh Shah, <strong>Om Kathalkar</strong>, Sachin Chaudhari, Anoop Namboodiri</span>
+    
+  </div>
+  
+</li>
+<li class="pub paper" data-kind="paper">
+  <span class="pub-year">2025</span>
+  <div class="pub-body">
+    <span class="pub-venue">IEEE ANTS 2025</span>
+    <span class="pub-title">Network-Aware Path Planning for Autonomous Mobile Robots in Industrial Environments</span>
+    <span class="pub-authors"><strong>Om Kathalkar</strong>, Houssam Hajj Hassan, Ajay Kattepur, Georgios Bouloukakis</span>
+    <div class="pub-links"><a class="btn-small chip" href="https://zenodo.org/records/17830292">Preprint ↗</a></div>
+  </div>
+  <img src="assets/img/publications/network_aware_2025.jpg" alt="Figure from Network-Aware Path Planning for Autonomous Mobile Robots in Industrial Environments" loading="lazy">
+</li>
+  </ul>
+</section>
+
+<section id="featured" class="section wrap">
+  <div class="section-head"><div class="section-title"><span class="section-num">05</span><h2>Featured</h2></div><a class="btn-small" href="featured.html">All awards, talks &amp; media →</a></div>
+  <div class="cards">
+<figure class="card" data-kind="Talk">
+  <img src="assets/img/featured/conclave_speaking.jpg" alt="Panelist — AI, Robotics &amp; Emerging Technologies" style="object-position: center 35%" loading="lazy">
+  <figcaption><span class="kind">Talk</span><span class="title">Panelist — AI, Robotics &amp; Emerging Technologies</span><span class="sub">SVPCET Alumni Conclave 2026 · Nagpur</span></figcaption>
+</figure>
+<figure class="card" data-kind="Award">
+  <img src="assets/img/featured/conclave_award.jpg" alt="Recognised at the SVPCET Alumni Conclave" style="object-position: center 30%" loading="lazy">
+  <figcaption><span class="kind">Recognition</span><span class="title">Recognised at the SVPCET Alumni Conclave</span><span class="sub">St. Vincent Pallotti College, Nagpur · February 2026</span></figcaption>
+</figure>
+<figure class="card" data-kind="Milestone">
+  <img src="assets/img/featured/iiit_ms.jpg" alt="MS by Research — Camera-Based AQI Estimation" style="object-position: center" loading="lazy">
+  <figcaption><span class="kind">Milestone</span><span class="title">MS by Research — Camera-Based AQI Estimation</span><span class="sub">IIIT Hyderabad · November 2025</span></figcaption>
+</figure>
+  </div>
+  <h3 class="label media-h" style="color:var(--muted)">In the media</h3>
+  <div class="press">
+<a class="link-row" href="https://www.thehansindia.com/news/cities/hyderabad/iiiths-unique-research-pathway-transforms-interns-into-innovators-1037828"><span><span class="t">IIITH&#x27;s unique research pathway transforms interns into innovators</span><span class="s">The Hans India · Jan 2026</span></span><span class="arrow" aria-hidden="true">↗</span></a>
+<a class="link-row" href="https://blogs.iiit.ac.in/pg-standingcommittee/"><span><span class="t">IIITH&#x27;s Alternate Admissions GATEway for Postgraduate Researchers</span><span class="s">IIITH Blogs · Jan 2026</span></span><span class="arrow" aria-hidden="true">↗</span></a>
+<a class="link-row" href="https://www.linkedin.com/posts/svpcet_pallottipride-academicexcellence-iiithyderabad-activity-7399380317415043072-DqaQ"><span><span class="t">Pallotti Pride: Academic Excellence Highlight</span><span class="s">SVPCET on LinkedIn · Nov 2025</span></span><span class="arrow" aria-hidden="true">↗</span></a>
+  </div>
+</section>
+
+<section id="news" class="section wrap">
+  <div class="news-wrap">
+    <div class="news-col">
+      <div class="section-head"><div class="section-title"><span class="section-num">06</span><h2>News</h2></div><a class="btn-small" href="news.html">All news →</a></div>
+      <ul class="news-list">
+<li data-kind="Paper"><span class="news-date">Sep 2026</span><span class="news-text">PAN-AQI accepted at the IEEE World Forum on Internet of Things (WFIoT) 2026.</span></li>
+<li data-kind="Career"><span class="news-date">Nov 2025</span><span class="news-text">Joined ICCS / NTUA as a Doctoral Researcher.</span></li>
+<li data-kind="Milestone"><span class="news-date">Nov 2025</span><span class="news-text">Defended my MS by Research thesis, &quot;Camera-Based Deep Learning Framework for AQI Estimation: Dataset and Methodology&quot;, at IIIT Hyderabad.</span></li>
+      </ul>
+    </div>
+    <aside class="teaching" id="teaching">
+      <span class="label">Teaching &amp; mentoring</span>
+      <ul><li><b>AI/ML Mentor</b><span>TalentSprint (Accenture) · 2024 — now</span></li><li><b>AI/ML Instructor</b><span>iHub-Data, IIIT Hyderabad · 24-week student programme · 2025 — now</span></li><li><b>Teaching Assistant</b><span>IIIT Hyderabad · IoT, embedded systems, edge AI · 2023 — 2025</span></li><li><b>Teaching Assistant</b><span>Rural engineering outreach, KIET · IoT fundamentals · 2023</span></li></ul>
+    </aside>
+  </div>
+</section>
+
+<section id="contact" class="section wrap" style="padding-bottom:96px">
+  <div class="section-head"><div class="section-title"><span class="section-num">07</span><h2>Contact</h2></div></div>
+  <div class="contact-grid">
+    <div>
+      <p class="contact-lead">The best way to reach me is email. Happy to talk research, collaborations, or a good idea.</p>
+      <div class="contact-actions">
+        <a class="btn btn-primary" href="mailto:om_kathalkar@mail.ntua.gr">om_kathalkar@mail.ntua.gr</a>
+        <button type="button" class="btn btn-ghost" data-copy="om_kathalkar@mail.ntua.gr">Copy address</button>
+      </div>
+      <p class="muted" style="margin-top:18px">Personal: <a href="mailto:omkathalkar.connect@gmail.com">omkathalkar.connect@gmail.com</a></p>
+      <address>School of Electrical and Computer Engineering<br>National Technical University of Athens<br>Polytechnic Campus, Zografou · 157 73 Athens, Greece</address>
+    </div>
+    <div class="contact-links"><a class="link-row" href="https://scholar.google.com/citations?user=a_lzSPoAAAAJ"><span><span class="t">Google Scholar</span><span class="s">Publications and citations</span></span><span class="arrow" aria-hidden="true">↗</span></a><a class="link-row" href="https://www.linkedin.com/in/om-kathalkar/"><span><span class="t">LinkedIn</span><span class="s">Professional profile</span></span><span class="arrow" aria-hidden="true">↗</span></a><a class="link-row" href="https://github.com/omkathalkar"><span><span class="t">GitHub</span><span class="s">Code and datasets</span></span><span class="arrow" aria-hidden="true">↗</span></a><a class="link-row" href="assets/docs/Om_Kathalkar_CV.pdf"><span><span class="t">Curriculum vitae</span><span class="s">Full academic CV (PDF)</span></span><span class="arrow" aria-hidden="true">↗</span></a></div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap"><span>© 2026 Om Rajendra Kathalkar</span><span>Last updated October 2026 · Athens</span></div>
+</footer>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,9 +1,0 @@
-github_users:
-  - omkathalkar
-
-repo_description_lines_max: 2
-
-github_repos:
-  - omkathalkar/TRAQID-Traffic-Related-Air-Quality-Image-Dataset
-  - omkathalkar/aqiformer
-  - omkathalkar/IoT-based-AQI-Estimation-using-Image-Processing-and-Learning-Methods

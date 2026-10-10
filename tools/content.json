@@ -1,0 +1,139 @@
+{
+  "site": {
+    "name": "Om Rajendra Kathalkar",
+    "short": "Om Kathalkar",
+    "url": "https://omkathalkar.github.io",
+    "description": "Om Kathalkar — Doctoral Researcher at ICCS, National Technical University of Athens, working on efficient inference for large language and foundation models.",
+    "cv": "assets/docs/Om_Kathalkar_CV.pdf",
+    "updated": "October 2026"
+  },
+  "hero": {
+    "kicker": "Doctoral Researcher — ICCS, National Technical University of Athens",
+    "lead_before": "I make large language models ",
+    "lead_em": "remember less and answer just as well",
+    "lead_after": " — efficient inference for real, resource-constrained deployments.",
+    "photo": "assets/img/om_athens.jpg",
+    "photo_alt": "Om Kathalkar on a rooftop in Athens at sunset",
+    "caption": "Zografou, Athens · 2026"
+  },
+  "facts": [
+    {"k": "Role", "v": "Doctoral Researcher, ICCS / NTUA"},
+    {"k": "Project", "v": "f-inference"},
+    {"k": "Advisor", "v": "Prof. Konstantinos Tserpes", "href": "https://scholar.google.com/citations?user=e_-h5egAAAAJ&hl=el"},
+    {"k": "Based in", "v": "Athens, Greece"}
+  ],
+  "about": {
+    "intro": "I'm a PhD researcher at the <strong>Institute of Communication and Computer Systems (ICCS)</strong>, National Technical University of Athens, working on <strong>efficient AI inference</strong> for resource-constrained and distributed environments.",
+    "rows": [
+      ["Currently", "Doctoral Researcher, ICCS, National Technical University of Athens"],
+      ["Project", "f-inference — Efficient Foundation Model Inference Across the Computing Continuum"],
+      ["Focus", "Efficient inference for large language and foundation models"],
+      ["Previously", "Researcher, Ericsson Research AI · MS by Research, IIIT Hyderabad"],
+      ["Languages", "English, Marathi, Hindi"]
+    ],
+    "bio": [
+      "My research sits where systems meet machine learning: how large language models can be made leaner in what they store, move and compute, without losing the reasoning quality that makes them useful.",
+      "Before Athens I completed an <strong>MS by Research at IIIT Hyderabad</strong>, building TRAQID, a 26,678-image traffic air-quality dataset, and AQIFormer, a transformer that classifies AQI across cities. At <strong>Ericsson Research AI</strong> I worked on network-aware path planning for factory robots in the Horizon Europe PANDORA project.",
+      "I believe inference efficiency is the bottleneck between lab-scale models and real deployment, and the most interesting work lives at that boundary. Outside research: cricket, hockey, badminton, hiking, and writing short stories and poetry."
+    ]
+  },
+  "project": {
+    "name": "f-inference",
+    "full": "Efficient Foundation Model Inference Across the Computing Continuum",
+    "paras": [
+      "Foundation models are trained on broad data and adapt to tasks across text, images, audio, video and time series — but running them today depends on centralised cloud providers, costs a lot of energy and money, and adds latency.",
+      "f-inference builds a Resource-driven Computing Continuum that distributes foundation-model inference across Cloud, Edge and IoT, moving it closer to data and users through adaptive, efficient inference — cutting latency, energy and cost while preserving data sovereignty, and opening advanced GenAI to SMEs and resource-constrained communities."
+    ],
+    "challenges": [
+      "Dependence on centralised cloud providers, threatening digital sovereignty and data security",
+      "High energy demands that conflict with sustainability goals",
+      "Costs that exclude SMEs from deploying and customising models",
+      "Remote services that add latency and single points of failure"
+    ]
+  },
+  "research": [
+    {"tag": "Efficient LLM inference", "when": "2025 — now", "title": "Efficient inference for large language models",
+     "desc": "Large language models are powerful but costly to run: their sheer size, attention that grows quadratically with input length, and token-by-token decoding drive up latency, memory and energy. My research makes LLM inference leaner across the data, model and system levels — reducing what a model stores, moves and computes — so it runs fast and reliably on constrained hardware, closer to where the data lives.",
+     "kw": []},
+    {"tag": "Robotics · Networks", "when": "2024 — 2025", "title": "Network-aware path planning for industrial robots",
+     "desc": "Factory robots are limited by wireless quality as much as by floor space. With Ericsson Research AI I built a Sionna ray-tracing framework validated on real measurements (R² = 0.87) and planners that co-optimise path cost and coverage; a spatial-aware transformer predicts SNR within 2.31 dB and runs 31× faster than GNN baselines.",
+     "kw": ["AMR path planning", "Sionna ray tracing", "CVAE · GraphMP", "IEEE ANTS 2025", "Springer Autonomous Robots"]},
+    {"tag": "Computer vision · Air quality", "when": "2021 — 2025", "title": "Visual air-quality intelligence",
+     "desc": "Estimating air quality from street-level images removes the dependency on expensive sensor networks. I built TRAQID — 26,678 front and rear traffic images with co-located AQI and weather data — and AQIFormer, a multi-view transformer reaching 89.96% accuracy and 81.67% on a city unseen in training.",
+     "kw": ["TRAQID", "AQIFormer", "Vision transformers", "Cross-city generalisation", "PAN-AQI"]},
+    {"tag": "IoT · Education", "when": "2021 — 2022", "title": "Remote, vision-evaluated laboratories",
+     "desc": "A platform that lets students run real physics experiments over the internet, with computer vision measuring the outcome — about 10× lower error than infrared sensing. It served thousands of learners and led to a FiCloud 2022 paper and a US patent.",
+     "kw": ["Remote labs", "Computer vision", "IoT", "FiCloud 2022", "US patent"]}
+  ],
+  "path": [
+    {"when": "Nov 2025 — now", "role": "Doctoral Researcher", "org": "ICCS, NTUA · Athens", "note": "Efficient foundation-model inference, f-inference project."},
+    {"when": "Dec 2024 — Nov 2025", "role": "Researcher", "org": "Ericsson Research AI", "note": "Network-aware AMR path planning, Horizon Europe PANDORA."},
+    {"when": "Apr 2024 — now", "role": "AI/ML Mentor", "org": "TalentSprint (Accenture)", "note": "AI Infinity and AI/ML certification programmes."},
+    {"when": "2021 — 2025", "role": "MS by Research, ECE", "org": "IIIT Hyderabad · SPCRC", "note": "With Prof. Sachin Chaudhari and Prof. Anoop Namboodiri; defended Nov 2025."},
+    {"when": "2020 — 2021", "role": "Summer Intern", "org": "e-Yantra Labs, IIT Bombay", "note": "Flood-warning system for vehicles on waterlogged roads."},
+    {"when": "2019 — 2023", "role": "B.E., Electronics & Telecom", "org": "SVPCET, Nagpur", "note": "CGPA 8.83/10 · Student of the Year 2023."}
+  ],
+  "publications": [
+    {"kind": "paper", "year": "2026", "venue": "Springer Nature · Autonomous Robots", "title": "Network-aware path planning for AMRs: A generalizable framework with spatial-aware adaptation", "pre": "", "me": "Om Kathalkar", "post": ", Houssam Hajj Hassan, Ajay Kattepur, Georgios Bouloukakis", "img": "assets/img/publications/network_aware_2026.jpg", "links": []},
+    {"kind": "paper", "year": "2026", "venue": "IEEE WFIoT 2026 · accepted", "title": "PAN-AQI: A Panoramic Dataset and Framework for Urban Air Quality Estimation", "pre": "Ansh Shah, ", "me": "Om Kathalkar", "post": ", Sachin Chaudhari, Anoop Namboodiri", "links": []},
+    {"kind": "paper", "year": "2025", "venue": "IEEE ANTS 2025", "title": "Network-Aware Path Planning for Autonomous Mobile Robots in Industrial Environments", "pre": "", "me": "Om Kathalkar", "post": ", Houssam Hajj Hassan, Ajay Kattepur, Georgios Bouloukakis", "img": "assets/img/publications/network_aware_2025.jpg", "links": [["Preprint", "https://zenodo.org/records/17830292"]]},
+    {"kind": "paper", "year": "2025", "venue": "ICVGIP 2025", "title": "AQIFormer: A Transformer-Based Multi-View Architecture for Cross-City Air Quality Classification", "pre": "", "me": "Om Kathalkar", "post": ", Nitin Nilesh, Sachin Chaudhari, Anoop Namboodiri", "img": "assets/img/publications/aqiformer.jpg", "links": [["arXiv", "https://arxiv.org/html/2606.07648v1"], ["Code", "https://github.com/omkathalkar/AQIFormer"]]},
+    {"kind": "patent", "year": "2025", "venue": "Indian patent · 202541073518", "title": "System for Determining Air Quality Index (AQI) in Urban Environments", "pre": "", "me": "Om Kathalkar", "post": ", Ansh Shah, Sachin Chaudhari, Anoop Namboodiri", "links": []},
+    {"kind": "paper", "year": "2024", "venue": "ICVGIP 2024 · Spotlight", "title": "TRAQID — Traffic-Related Air Quality Image Dataset", "pre": "", "me": "Om Kathalkar", "post": ", Nitin Nilesh, Sachin Chaudhari, Anoop Namboodiri", "img": "assets/img/publications/traqid.jpg", "links": [["Project", "https://omkathalkar.github.io/traqid/"], ["DOI", "https://doi.org/10.1145/3702250.3702260"], ["Code", "https://github.com/omkathalkar/TRAQID-Traffic-Related-Air-Quality-Image-Dataset"]]},
+    {"kind": "patent", "year": "2024", "venue": "Indian patent · 202441043706", "title": "System and Method for Determining Air Quality by Processing Environmental and Traffic-Related Visual Data", "pre": "", "me": "Om Kathalkar", "post": ", Nitin Nilesh, Sachin Chaudhari, Anoop Namboodiri", "links": []},
+    {"kind": "patent", "year": "2024", "venue": "US patent application · 18/241,852", "title": "System and Method for Implementing an Experiment Remotely and Determining an Output Using a Computer Vision Model", "pre": "Sachin Chaudhari, ", "me": "Om Rajendra Kathalkar", "post": ", Viswanadh Savita Kandala, Nitin Nilesh", "links": [["USPTO", "https://patentcenter.uspto.gov/applications/18241852"]]},
+    {"kind": "paper", "year": "2023", "venue": "EnvSys 2023", "title": "Protocol for hunting PM2.5 emission hot spots in cities", "pre": "Sara Spanddhana, Andrew Rebeiro-Hargrave, ", "me": "Om Kathalkar", "post": ", Samu Varjonen, Sachin Chaudhari, Sasu Tarkoma", "links": [["DOI", "https://doi.org/10.1145/3597064.3597322"]]},
+    {"kind": "paper", "year": "2022", "venue": "FiCloud 2022", "title": "CV and IoT-based Remote Triggered Labs: Use Case of Conservation of Mechanical Energy", "pre": "K. S. Viswanadh, ", "me": "Om Kathalkar", "post": ", Nitin Nilesh, Sachin Chaudhari, Venkatesh Choppella", "links": [["IEEE Xplore", "https://ieeexplore.ieee.org/document/9910543"]]}
+  ],
+  "featured": [
+    {"img": "assets/img/featured/conclave_speaking.jpg", "kind": "Talk", "title": "Panelist — AI, Robotics & Emerging Technologies", "sub": "SVPCET Alumni Conclave 2026 · Nagpur", "pos": "center 35%"},
+    {"img": "assets/img/featured/conclave_award.jpg", "kind": "Award", "label": "Recognition", "title": "Recognised at the SVPCET Alumni Conclave", "sub": "St. Vincent Pallotti College, Nagpur · February 2026", "pos": "center 30%"},
+    {"img": "assets/img/featured/iiit_ms.jpg", "kind": "Milestone", "title": "MS by Research — Camera-Based AQI Estimation", "sub": "IIIT Hyderabad · November 2025", "pos": "center"},
+    {"img": "assets/img/featured/conclave_students.jpg", "kind": "Talk", "title": "Mentoring students at the Alumni Conclave", "sub": "SVPCET, Nagpur · February 2026", "pos": "center"},
+    {"img": "assets/img/featured/pallotti.jpg", "kind": "Milestone", "title": "MS thesis defence — IIIT Hyderabad", "sub": "Featured by St. Vincent Pallotti College · November 2025", "pos": "center 30%"},
+    {"img": "assets/img/featured/air_quality.jpg", "kind": "Milestone", "title": "IoT-based air quality estimation project", "sub": "SPCRC Lab, IIIT Hyderabad · 2022 — 2024", "pos": "center"},
+    {"img": "assets/img/featured/team_vayu.jpg", "kind": "Award", "title": "Winner — Environmental Sensing Project Competition", "sub": "University of Helsinki, Finland", "pos": "center"},
+    {"img": "assets/img/featured/best_student.jpg", "kind": "Award", "title": "Student of the Year — Engineering, Batch 2023", "sub": "SVPCET, Nagpur · 2023", "pos": "center 25%"},
+    {"img": "assets/img/featured/eyic_air1.jpg", "kind": "Award", "title": "AIR-1 Gold Award — e-Yantra Ideas Competition", "sub": "IIT Bombay · 2021", "pos": "center"}
+  ],
+  "press": [
+    {"title": "IIITH's unique research pathway transforms interns into innovators", "source": "The Hans India", "date": "Jan 2026", "url": "https://www.thehansindia.com/news/cities/hyderabad/iiiths-unique-research-pathway-transforms-interns-into-innovators-1037828"},
+    {"title": "IIITH's Alternate Admissions GATEway for Postgraduate Researchers", "source": "IIITH Blogs", "date": "Jan 2026", "url": "https://blogs.iiit.ac.in/pg-standingcommittee/"},
+    {"title": "Pallotti Pride: Academic Excellence Highlight", "source": "SVPCET on LinkedIn", "date": "Nov 2025", "url": "https://www.linkedin.com/posts/svpcet_pallottipride-academicexcellence-iiithyderabad-activity-7399380317415043072-DqaQ"},
+    {"title": "Om Rajendra Kathalkar — IIIT-H Monthly News", "source": "IIIT Hyderabad Blog", "date": "Nov 2025", "url": "https://blogs.iiit.ac.in/monthly_news/om-rajendra-kathalkar/"},
+    {"title": "Sensor-Free Method Wins Environmental Sensing Competition", "source": "IIIT Hyderabad Blog", "date": "Feb 2023", "url": "https://blogs.iiit.ac.in/aqi/"},
+    {"title": "IoT-based AQI Estimation — Detailed Project Story", "source": "IIIT Hyderabad Research", "date": "2022", "url": "https://mobility.iiit.ac.in/air_quality-blog.php"}
+  ],
+  "news": [
+    {"y": "2026", "m": "Sep", "type": "Paper", "text": "PAN-AQI accepted at the IEEE World Forum on Internet of Things (WFIoT) 2026."},
+    {"y": "2025", "m": "Nov", "type": "Career", "text": "Joined ICCS / NTUA as a Doctoral Researcher."},
+    {"y": "2025", "m": "Nov", "type": "Milestone", "text": "Defended my MS by Research thesis, \"Camera-Based Deep Learning Framework for AQI Estimation: Dataset and Methodology\", at IIIT Hyderabad."},
+    {"y": "2025", "m": "Oct", "type": "Paper", "text": "Network-aware path planning for AMRs accepted at IEEE ANTS 2025."},
+    {"y": "2025", "m": "Oct", "type": "Paper", "text": "AQIFormer accepted at ICVGIP 2025."},
+    {"y": "2025", "m": "Aug", "type": "Milestone", "text": "Submitted my MS thesis."},
+    {"y": "2025", "m": "Aug", "type": "Paper", "text": "Submitted two papers — to ICVGIP 2025 (IIT Mandi) and IEEE ANTS 2025 (Delhi)."},
+    {"y": "2024", "m": "Dec", "type": "Career", "text": "Joined Ericsson Research AI — network-aware robotics in the Horizon Europe PANDORA project."},
+    {"y": "2024", "m": "Oct", "type": "Paper", "text": "TRAQID accepted at ICVGIP 2024, presented as a spotlight at IIIT Bangalore."},
+    {"y": "2024", "m": "Apr", "type": "Career", "text": "Joined TalentSprint as an AI/ML Mentor."},
+    {"y": "2024", "m": "Mar", "type": "Milestone", "text": "US patent on computer-vision-evaluated remote experiments accepted for publication at the USPTO."},
+    {"y": "2023", "m": "Jul", "type": "Milestone", "text": "Awarded the iHub-Data Fellowship for MS research at IIIT Hyderabad."}
+  ],
+  "teaching": [
+    ["AI/ML Mentor", "TalentSprint (Accenture) · 2024 — now"],
+    ["AI/ML Instructor", "iHub-Data, IIIT Hyderabad · 24-week student programme · 2025 — now"],
+    ["Teaching Assistant", "IIIT Hyderabad · IoT, embedded systems, edge AI · 2023 — 2025"],
+    ["Teaching Assistant", "Rural engineering outreach, KIET · IoT fundamentals · 2023"]
+  ],
+  "contact": {
+    "email": "om_kathalkar@mail.ntua.gr",
+    "personal": "omkathalkar.connect@gmail.com",
+    "address": ["School of Electrical and Computer Engineering", "National Technical University of Athens", "Polytechnic Campus, Zografou · 157 73 Athens, Greece"],
+    "links": [
+      ["Google Scholar", "Publications and citations", "https://scholar.google.com/citations?user=a_lzSPoAAAAJ"],
+      ["LinkedIn", "Professional profile", "https://www.linkedin.com/in/om-kathalkar/"],
+      ["GitHub", "Code and datasets", "https://github.com/omkathalkar"],
+      ["Curriculum vitae", "Full academic CV (PDF)", "assets/docs/Om_Kathalkar_CV.pdf"]
+    ]
+  },
+  "kv_tokens": [["[BOS]",1],["To",0.2],["answer",0.6],["a",0.1],["long",0.5],["question",0.85],[",",0.04],["the",0.1],["model",0.62],["stores",0.5],["a",0.05],["key",0.74],["and",0.1],["value",0.72],["for",0.2],["every",0.4],["token",0.8],["it",0.08],["has",0.1],["read",0.52],[".",0.04],["Most",0.42],["of",0.09],["them",0.3],["barely",0.48],["matter",0.7],[",",0.04],["so",0.2],["we",0.3],["keep",0.9],["the",0.11],["few",0.64],["that",0.3],["do",0.5],["and",0.12],["free",0.82],["the",0.06],["rest",0.6],[".",0.04]]
+}
